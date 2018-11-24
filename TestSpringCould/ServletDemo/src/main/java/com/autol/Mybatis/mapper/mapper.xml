@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapper nameSpace="com.autol.Mybatis.mapper.Mapper">
+    <select id="getStudent" resultType ="com.monetto.entry.Student">
+        select * from test where id = ?
+    </select>
+</mapper>

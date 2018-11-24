@@ -1,0 +1,26 @@
+spring:
+  application:
+    name: my                     #指定了配置文件的应用名
+  cloud:
+    config:
+      uri: http://localhost:8080/        #Config server的uri
+      profile: dev                       #指定的环境
+      label: master                      #指定分支
+  datasource:
+    url: ${spring.datasource.url} #mysql://localhost:3306/demo?useUnicode=true&characterEncoding=utf-8&useSSL=false
+    username: ${spring.datasource.username} #root
+    password: ${spring.datasource.password} #root
+    driver-class-name: ${spring.datasource.driver-class-name} #com.mysql.jdbc.Driver
+
+server:
+  port: 7002
+management:
+  security:
+    enabled: false     #SpringBoot 1.5.X 以上默认开通了安全认证，如果不关闭会要求权限
+mybatis:
+  mapper-locations: classpath:mybatis/*.xml
+
+  #spring.datasource.url=jdbc:mysql://localhost:3306/demo?useUnicode=true&characterEncoding=utf-8&useSSL=false
+  #spring.datasource.username=root
+  #spring.datasource.password=root
+  #spring.datasource.driver-class-name=com.mysql.jdbc.Driver
