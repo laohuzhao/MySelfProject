@@ -22,7 +22,10 @@ public class DemoApplication {
     public static void main(String[] args) {
         SpringApplication.run(DemoApplication.class, args);
     }
-
+/**
+ *
+ * Spring could config 的使用测试
+ * */
     @Value("${spring.datasource.url}")
     private String fromValue;
 

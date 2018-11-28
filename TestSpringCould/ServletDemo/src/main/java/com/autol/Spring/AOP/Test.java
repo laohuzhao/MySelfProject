@@ -13,7 +13,7 @@ public class Test {
         proxy.save();//执行的是代理的方法*/
 
 
-        System.out.println("华丽的分割线----------------------");
+        System.out.println("----------------------");
         // 目标对象
         IUserDao target1 = new UserDaoImpl();
         // 【原始的类型 class cn.itcast.b_dynamic.UserDao】
