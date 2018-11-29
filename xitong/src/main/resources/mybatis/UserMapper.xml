@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.example.xitong.common.dao.UserMapper">
+ <!-- <cache type="org.mybatis.caches.ehcache.EhcacheCache">
+        <property name="timeToIdleSeconds" value="60"></property>&lt;!&ndash;&lt;!&ndash;当缓存闲置60秒后销毁&ndash;&gt;&ndash;&gt;
+        <property name="timeToLiveSeconds" value="160"></property>&lt;!&ndash;&lt;!&ndash;缓存存在160秒后销毁&ndash;&gt;&ndash;&gt;
+        <property name="maxEntriesLocalHeap" value="1000"></property>
+        <property name="maxEntriesLocalDisk" value="10000000"></property>
+        <property name="memoryStoreEvictionPolicy" value="LRU"></property>
+    </cache>-->
+
+    <select id="findAll" resultType="User">
+        select * from user
+    </select>
+    <insert id="updateUser" parameterType="User">
+       INSERT INTO USER VALUES(#{id},#{name},#{address},#{age})
+    </insert>
+</mapper>
