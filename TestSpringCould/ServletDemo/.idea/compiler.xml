@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="demo" />
         <module name="redisTest" />
+        <module name="rsademo" />
       </profile>
     </annotationProcessing>
   </component>
