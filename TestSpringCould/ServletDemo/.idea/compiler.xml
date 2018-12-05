@@ -7,9 +7,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="demo" />
+        <module name="redisbootdemo" />
         <module name="redisTest" />
         <module name="rsademo" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ShiroTest" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

@@ -34,7 +34,7 @@ public class CharactorFilter implements Filter {
        }else {
            HttpServletResponse s=(HttpServletResponse) Response;
            PrintWriter out = s.getWriter();
-           out.write("在登录一次吧！400");
+           out.write("404");
            out.flush();
        }
 
