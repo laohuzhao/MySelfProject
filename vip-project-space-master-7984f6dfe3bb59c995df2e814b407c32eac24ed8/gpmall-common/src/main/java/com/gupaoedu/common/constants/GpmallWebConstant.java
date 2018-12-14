@@ -1,9 +1,6 @@
 package com.gupaoedu.common.constants;
 
 /**
- * 腾讯课堂搜索 咕泡学院
- * 加群获取视频：608583947
- * 风骚的Michael 老师
  * 没用配置中心，通过一个统一的父控来管理公共配置
  */
 public class GpmallWebConstant {

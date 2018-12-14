@@ -7,28 +7,89 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="68d70bd9-cf59-4634-8223-2bcccc28d8a0" name="Default Changelist" comment="过滤器，请求头">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestJdk11/src/Test2/J11Impl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestJdk11/src/Test2/J11Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestJdk11/src/Test2/J11Test1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestJdk11/src/test1/TestJ8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redisTest/src/main/java/OperationRedis/RedisTemplateTest/TestEval.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redisTest/src/main/java/OperationRedis/test2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redisbootdemo/src/main/java/com/example/redisbootdemo/Test1/RedisConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redisbootdemo/src/main/java/com/example/redisbootdemo/Test1/RedisConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redisbootdemo/src/main/java/com/example/redisbootdemo/Test1/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../RsaDemo/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../RsaDemo/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../RsaDemo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../RsaDemo/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../RsaDemo/RsaDemo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestJdk11/src/test3/Aplayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestJdk11/src/test3/Bplayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestJdk11/src/test3/ContextPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestJdk11/src/test3/map4player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestJdk11/src/test3/player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestJdk11/src/test4/JH.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestJdk11/src/test4/overload.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/src/main/java/com/example/rabbitmq/test1/consumer/MyConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/src/main/java/com/example/rabbitmq/test1/provider/MyProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redisTest/src/main/java/OperationRedis/RedisTemplateTest/TestC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testwebflux/src/main/java/com/example/testwebflux/MyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testwebflux/src/main/java/com/example/testwebflux/WebSocketConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testwebflux/src/main/java/com/example/testwebflux/WebSocketTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testwebflux/src/main/resources/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redisTest/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/redisTest/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redisTest/target/classes/OperationRedis/DistributedLock.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/redisTest/target/classes/OperationRedis/Service.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/redisTest/target/classes/OperationRedis/Test1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/redisTest/target/classes/OperationRedis/Test1$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redisTest/target/classes/OperationRedis/Test1.class" beforeDir="false" afterPath="$PROJECT_DIR$/redisTest/target/classes/OperationRedis/Test1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redisTest/target/classes/OperationRedis/ThreadA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestJdk11/TestJdk11.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TestJdk11/TestJdk11.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestJdk11/src/Test2/J11Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/TestJdk11/src/Test2/J11Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestJdk11/Test2/J11Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TestJdk11/Test2/J11Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redisTest/src/main/java/OperationRedis/RedisTemplateTest/TestEval.java" beforeDir="false" afterPath="$PROJECT_DIR$/redisTest/src/main/java/OperationRedis/RedisTemplateTest/TestEval.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redisTest/target/classes/OperationRedis/RedisTemplateTest/TestEval$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/redisTest/target/classes/OperationRedis/RedisTemplateTest/TestEval$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redisTest/target/classes/OperationRedis/RedisTemplateTest/TestEval$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/redisTest/target/classes/OperationRedis/RedisTemplateTest/TestEval$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redisTest/target/classes/OperationRedis/RedisTemplateTest/TestEval.class" beforeDir="false" afterPath="$PROJECT_DIR$/redisTest/target/classes/OperationRedis/RedisTemplateTest/TestEval.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rsademo/src/main/java/com/rsa/rsademo/RSATEST/filter/CharactorFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/rsademo/src/main/java/com/rsa/rsademo/RSATEST/filter/CharactorFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../xitong/src/main/java/com/example/xitong/redis/RedisConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../xitong/src/main/java/com/example/xitong/redis/RedisConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/autol/servlet/controller/Test1Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/autol/servlet/controller/Test1Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/autol/servlet/controller/Test2Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/autol/servlet/controller/Test2Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../log_to_kafka-master/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../log_to_kafka-master/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/activity-service/activity-api/src/main/java/com/gupaoedu/activity/draw/ActivityTurntableDrawService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/activity-service/activity-api/src/main/java/com/gupaoedu/activity/draw/ActivityTurntableDrawService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/activity-service/activity-api/src/main/java/com/gupaoedu/activity/draw/bean/ActivityTurntableDrawReq.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/activity-service/activity-api/src/main/java/com/gupaoedu/activity/draw/bean/ActivityTurntableDrawReq.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/activity-service/activity-api/src/main/java/com/gupaoedu/activity/draw/bean/AwardDrawRecordBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/activity-service/activity-api/src/main/java/com/gupaoedu/activity/draw/bean/AwardDrawRecordBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/activity-service/activity-provider/src/main/java/com/gupaoedu/activity/notify/RegistryListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/activity-service/activity-provider/src/main/java/com/gupaoedu/activity/notify/RegistryListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/activity-service/activity-provider/src/main/java/com/gupaoedu/activity/notify/UserBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/activity-service/activity-provider/src/main/java/com/gupaoedu/activity/notify/UserBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/activity-service/activity-provider/src/main/java/com/gupaoedu/activity/services/ActivityTurntableDrawServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/activity-service/activity-provider/src/main/java/com/gupaoedu/activity/services/ActivityTurntableDrawServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/activity-service/activity-provider/src/main/java/com/gupaoedu/activity/services/processor/constants/DrawContants.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/activity-service/activity-provider/src/main/java/com/gupaoedu/activity/services/processor/constants/DrawContants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/activity-service/activity-provider/src/main/java/com/gupaoedu/activity/services/processor/constants/RedisKeyManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/activity-service/activity-provider/src/main/java/com/gupaoedu/activity/services/processor/constants/RedisKeyManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/activity-service/activity-provider/src/main/java/com/gupaoedu/activity/services/processor/exception/RewardException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/activity-service/activity-provider/src/main/java/com/gupaoedu/activity/services/processor/exception/RewardException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/activity-service/activity-provider/src/main/java/com/gupaoedu/activity/services/processor/exception/UnRewardException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/activity-service/activity-provider/src/main/java/com/gupaoedu/activity/services/processor/exception/UnRewardException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/gpmall-activity/src/main/java/com/gupaoedu/activity/controller/BaseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/gpmall-activity/src/main/java/com/gupaoedu/activity/controller/BaseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/gpmall-activity/src/main/java/com/gupaoedu/activity/controller/DrawController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/gpmall-activity/src/main/java/com/gupaoedu/activity/controller/DrawController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/gpmall-activity/src/main/java/com/gupaoedu/activity/intercept/TokenIntercepter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/gpmall-activity/src/main/java/com/gupaoedu/activity/intercept/TokenIntercepter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/gpmall-cashier/src/main/java/com/gupaoedu/cashier/controller/BaseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/gpmall-cashier/src/main/java/com/gupaoedu/cashier/controller/BaseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/gpmall-cashier/src/main/java/com/gupaoedu/cashier/controller/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/gpmall-cashier/src/main/java/com/gupaoedu/cashier/controller/IndexController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/gpmall-cashier/src/main/java/com/gupaoedu/cashier/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/gpmall-cashier/src/main/java/com/gupaoedu/cashier/controller/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/gpmall-common/src/main/java/com/gupaoedu/common/annotation/Anoymous.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/gpmall-common/src/main/java/com/gupaoedu/common/annotation/Anoymous.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/gpmall-common/src/main/java/com/gupaoedu/common/constants/GpmallWebConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/gpmall-common/src/main/java/com/gupaoedu/common/constants/GpmallWebConstant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/gpmall-sso/src/main/java/com/gupaoedu/sso/controller/BaseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/gpmall-sso/src/main/java/com/gupaoedu/sso/controller/BaseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/gpmall-sso/src/main/java/com/gupaoedu/sso/controller/CaptchaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/gpmall-sso/src/main/java/com/gupaoedu/sso/controller/CaptchaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/pay-service/pay-api/src/main/java/com/gupaoedu/pay/TransactionPayService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/pay-service/pay-api/src/main/java/com/gupaoedu/pay/TransactionPayService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/pay-service/pay-api/src/main/java/com/gupaoedu/pay/commons/AbstractRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/pay-service/pay-api/src/main/java/com/gupaoedu/pay/commons/AbstractRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/pay-service/pay-api/src/main/java/com/gupaoedu/pay/commons/AbstractResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/pay-service/pay-api/src/main/java/com/gupaoedu/pay/commons/AbstractResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/pay-service/pay-api/src/main/java/com/gupaoedu/pay/dto/PaymentNotifyRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/pay-service/pay-api/src/main/java/com/gupaoedu/pay/dto/PaymentNotifyRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/pay-service/pay-api/src/main/java/com/gupaoedu/pay/dto/PaymentNotifyResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/pay-service/pay-api/src/main/java/com/gupaoedu/pay/dto/PaymentNotifyResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/pay-service/pay-api/src/main/java/com/gupaoedu/pay/dto/PaymentRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/pay-service/pay-api/src/main/java/com/gupaoedu/pay/dto/PaymentRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/pay-service/pay-api/src/main/java/com/gupaoedu/pay/dto/PaymentResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/pay-service/pay-api/src/main/java/com/gupaoedu/pay/dto/PaymentResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/user-service/user-api/src/main/java/com/gupaoedu/user/IUserCoreService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/user-service/user-api/src/main/java/com/gupaoedu/user/IUserCoreService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/user-service/user-api/src/main/java/com/gupaoedu/user/IUserQueryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/user-service/user-api/src/main/java/com/gupaoedu/user/IUserQueryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/user-service/user-api/src/main/java/com/gupaoedu/user/abs/AbstractRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/user-service/user-api/src/main/java/com/gupaoedu/user/abs/AbstractRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/user-service/user-api/src/main/java/com/gupaoedu/user/abs/AbstractResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/user-service/user-api/src/main/java/com/gupaoedu/user/abs/AbstractResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/user-service/user-api/src/main/java/com/gupaoedu/user/constants/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/user-service/user-api/src/main/java/com/gupaoedu/user/constants/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/user-service/user-api/src/main/java/com/gupaoedu/user/constants/ResponseCodeEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/user-service/user-api/src/main/java/com/gupaoedu/user/constants/ResponseCodeEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/user-service/user-api/src/main/java/com/gupaoedu/user/dto/CheckAuthRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/user-service/user-api/src/main/java/com/gupaoedu/user/dto/CheckAuthRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/user-service/user-api/src/main/java/com/gupaoedu/user/dto/CheckAuthResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/user-service/user-api/src/main/java/com/gupaoedu/user/dto/CheckAuthResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/user-service/user-api/src/main/java/com/gupaoedu/user/dto/UserLoginRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/user-service/user-api/src/main/java/com/gupaoedu/user/dto/UserLoginRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/user-service/user-api/src/main/java/com/gupaoedu/user/dto/UserLoginResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/user-service/user-api/src/main/java/com/gupaoedu/user/dto/UserLoginResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/user-service/user-api/src/main/java/com/gupaoedu/user/dto/UserQueryRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/user-service/user-api/src/main/java/com/gupaoedu/user/dto/UserQueryRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/user-service/user-api/src/main/java/com/gupaoedu/user/dto/UserQueryResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/user-service/user-api/src/main/java/com/gupaoedu/user/dto/UserQueryResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/user-service/user-api/src/main/java/com/gupaoedu/user/dto/UserRegisterRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/user-service/user-api/src/main/java/com/gupaoedu/user/dto/UserRegisterRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/user-service/user-api/src/main/java/com/gupaoedu/user/dto/UserRegisterResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/user-service/user-api/src/main/java/com/gupaoedu/user/dto/UserRegisterResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/user-service/user-provider/src/main/java/com/gupaoedu/user/exception/ServiceException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/user-service/user-provider/src/main/java/com/gupaoedu/user/exception/ServiceException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/user-service/user-provider/src/main/java/com/gupaoedu/user/main/Bootstrap.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/user-service/user-provider/src/main/java/com/gupaoedu/user/main/Bootstrap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/user-service/user-provider/src/main/java/com/gupaoedu/user/notify/UnKnowMessageListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/user-service/user-provider/src/main/java/com/gupaoedu/user/notify/UnKnowMessageListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/user-service/user-provider/src/main/java/com/gupaoedu/user/services/UserCoreServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/user-service/user-provider/src/main/java/com/gupaoedu/user/services/UserCoreServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/user-service/user-provider/src/main/java/com/gupaoedu/user/services/UserQueryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/user-service/user-provider/src/main/java/com/gupaoedu/user/services/UserQueryServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/user-service/user-provider/src/main/java/com/gupaoedu/user/utils/JwtTokenUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/user-service/user-provider/src/main/java/com/gupaoedu/user/utils/JwtTokenUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../xitong/src/main/java/com/example/xitong/mainTest/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../xitong/src/main/java/com/example/xitong/mainTest/Test.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -37,6 +98,12 @@
     <ignored path="$PROJECT_DIR$/rsademo/target/" />
     <ignored path="$PROJECT_DIR$/ShiroTest/target/" />
     <ignored path="$PROJECT_DIR$/redisbootdemo/target/" />
+    <ignored path="$PROJECT_DIR$/activity-service/target/" />
+    <ignored path="$PROJECT_DIR$/activity-service/activity-api/target/" />
+    <ignored path="$PROJECT_DIR$/activity-service/activity-provider/target/" />
+    <ignored path="$PROJECT_DIR$/RabbitMQTest/target/" />
+    <ignored path="$PROJECT_DIR$/rabbitmq/target/" />
+    <ignored path="$PROJECT_DIR$/testwebflux/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,58 +162,66 @@
     <session id="487146490">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="8" />
+          <entry key="project.closed" value="15" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.17" value="1" />
-          <entry key="project.open.time.2" value="2" />
+          <entry key="project.open.time.2" value="3" />
+          <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.40" value="1" />
+          <entry key="project.open.time.46" value="1" />
+          <entry key="project.open.time.49" value="2" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.open.time.65" value="1" />
+          <entry key="project.open.time.65" value="2" />
           <entry key="project.open.time.70" value="1" />
+          <entry key="project.open.time.72" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="10" />
+          <entry key="project.opened" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="MF" value="1" />
-          <entry key="class" value="34" />
+          <entry key="class" value="40" />
+          <entry key="html" value="1" />
           <entry key="iml" value="1" />
-          <entry key="java" value="138" />
+          <entry key="java" value="189" />
           <entry key="lua" value="2" />
           <entry key="pom" value="4" />
-          <entry key="properties" value="4" />
-          <entry key="xml" value="16" />
+          <entry key="properties" value="5" />
+          <entry key="xml" value="26" />
           <entry key="yml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="34" />
+          <entry key="CLASS" value="40" />
+          <entry key="HTML" value="1" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="138" />
+          <entry key="JAVA" value="189" />
           <entry key="Manifest" value="1" />
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Properties" value="4" />
-          <entry key="XML" value="20" />
+          <entry key="Properties" value="5" />
+          <entry key="XML" value="30" />
           <entry key="YAML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="5464" />
-          <entry key="properties" value="7" />
+          <entry key="html" value="31" />
+          <entry key="java" value="7186" />
+          <entry key="properties" value="27" />
           <entry key="txt" value="18" />
-          <entry key="xml" value="24" />
+          <entry key="xml" value="31" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="5464" />
+          <entry key="HTML" value="31" />
+          <entry key="JAVA" value="7186" />
           <entry key="PLAIN_TEXT" value="18" />
-          <entry key="Properties" value="7" />
-          <entry key="XML" value="24" />
+          <entry key="Properties" value="27" />
+          <entry key="XML" value="31" />
         </counts>
       </usages-collector>
     </session>
@@ -154,105 +229,55 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/redisbootdemo/src/main/resources/application.properties">
+        <entry file="file://$PROJECT_DIR$/testwebflux/src/main/java/com/example/testwebflux/MyController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="1" column="1" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/redisbootdemo/src/main/java/com/example/redisbootdemo/Test1/RedisConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="175">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/redisbootdemo/src/main/java/com/example/redisbootdemo/RedisbootdemoApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/redisbootdemo/src/main/java/com/example/redisbootdemo/Test1/RedisConfiguration.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="697">
-              <caret line="65" column="58" selection-start-line="65" selection-start-column="58" selection-end-line="65" selection-end-column="58" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/redisbootdemo/src/test/java/com/example/redisbootdemo/RedisbootdemoApplicationTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/redisTest/src/main/java/OperationRedis/RedisTemplateTest/TestEval.java">
+        <entry file="file://$PROJECT_DIR$/testwebflux/src/main/resources/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-150">
-              <caret line="48" column="66" selection-start-line="48" selection-start-column="66" selection-end-line="48" selection-end-column="66" />
+            <state relative-caret-position="-353">
+              <caret line="29" column="17" lean-forward="true" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testwebflux/src/main/java/com/example/testwebflux/WebSocketTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1047">
+              <caret line="112" column="9" selection-start-line="112" selection-start-column="9" selection-end-line="112" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1918#2467#0" expanded="true" />
-                <element signature="e#2466#2467#0" expanded="true" />
-                <element signature="e#2885#3711#0" expanded="true" />
-                <element signature="e#3710#3711#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/redisTest/pom.xml">
+        <entry file="file://$PROJECT_DIR$/TestJdk11/src/Test2/J11Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-178" />
+            <state relative-caret-position="625">
+              <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+            </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/redisbootdemo/src/main/java/com/example/redisbootdemo/Test1/User.java">
+        <entry file="file://$PROJECT_DIR$/testwebflux/src/main/java/com/example/testwebflux/WebSocketConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+            <state relative-caret-position="200">
+              <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
               <folding>
-                <element signature="e#202#203#0" expanded="true" />
-                <element signature="e#233#234#0" expanded="true" />
-                <element signature="e#281#282#0" expanded="true" />
-                <element signature="e#316#317#0" expanded="true" />
-                <element signature="e#346#347#0" expanded="true" />
-                <element signature="e#372#373#0" expanded="true" />
-                <element signature="e#410#411#0" expanded="true" />
-                <element signature="e#440#441#0" expanded="true" />
-                <element signature="e#484#485#0" expanded="true" />
-                <element signature="e#508#509#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/redisbootdemo/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -264,6 +289,7 @@
       <list>
         <option value="AnnotationType" />
         <option value="Interface" />
+        <option value="HTML File" />
         <option value="Class" />
       </list>
     </option>
@@ -282,34 +308,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/demo/src/main/java/com/autol/demo/UserDao.java" />
-        <option value="$PROJECT_DIR$/demo/src/main/java/com/autol/demo/UserMapper.xml" />
-        <option value="$PROJECT_DIR$/demo/pom.xml" />
-        <option value="$PROJECT_DIR$/demo/src/main/resources/mybatis/UserMapper.xml" />
-        <option value="$PROJECT_DIR$/demo/src/main/resources/bootstrap.yml" />
-        <option value="$PROJECT_DIR$/demo/src/main/java/com/autol/demo/DemoApplication.java" />
-        <option value="$PROJECT_DIR$/redisTest/pom.xml" />
-        <option value="$PROJECT_DIR$/redisTest/src/main/java/OperationRedis/ThreadA.java" />
-        <option value="$PROJECT_DIR$/redisTest/src/main/java/OperationRedis/DistributedLock.java" />
-        <option value="$PROJECT_DIR$/redisTest/src/main/java/OperationRedis/Service.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/autol/Spring/AOP/Test.java" />
-        <option value="$PROJECT_DIR$/redisTest/src/main/java/OperationRedis/Test1.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/autol/ThreadTest/Test1/ThreadMethed.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/autol/ThreadTest/Test2/Request.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/autol/ThreadTest/Test2/RequestProcessor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/autol/ThreadTest/Test2/PrintProcessor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/autol/ThreadTest/Test2/SaveProcessor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/autol/ThreadTest/Test2/Demo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/autol/ThreadTest/Test1/LambdaTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/autol/ThreadTest/Test1/ThreadStatus.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/config.xml" />
-        <option value="$PROJECT_DIR$/rsademo/src/main/java/com/rsa/rsademo/RSATEST/utils/Base64Utils.java" />
-        <option value="$PROJECT_DIR$/rsademo/src/main/java/com/rsa/rsademo/RSATEST/test/RSATester.java" />
-        <option value="$PROJECT_DIR$/rsademo/src/main/java/com/rsa/rsademo/RSATEST/utils/JsonUtil.java" />
-        <option value="$PROJECT_DIR$/rsademo/src/main/java/com/rsa/rsademo/RSATEST/JieMiServlet.java" />
-        <option value="$PROJECT_DIR$/rsademo/src/main/java/com/rsa/rsademo/RSATEST/filter/FilterConfig.java" />
-        <option value="$PROJECT_DIR$/rsademo/src/main/java/com/rsa/rsademo/RSATEST/common/User.java" />
-        <option value="$PROJECT_DIR$/rsademo/src/main/java/com/rsa/rsademo/RSATEST/utils/JWT.java" />
         <option value="$PROJECT_DIR$/rsademo/src/main/java/com/rsa/rsademo/RSATEST/controller/MeController.java" />
         <option value="$PROJECT_DIR$/rsademo/pom.xml" />
         <option value="$PROJECT_DIR$/rsademo/src/main/java/com/rsa/rsademo/RSATEST/controller/IndexController.java" />
@@ -319,10 +317,8 @@
         <option value="$PROJECT_DIR$/ShiroTest/pom.xml" />
         <option value="$PROJECT_DIR$/ShiroTest/src/main/java/com/shiro/demo/service/ILoginSV.java" />
         <option value="$PROJECT_DIR$/ShiroTest/src/main/java/com/shiro/demo/service/impl/LoginImpl.java" />
-        <option value="$PROJECT_DIR$/rsademo/src/main/java/com/rsa/rsademo/RSATEST/filter/CharactorFilter.java" />
         <option value="$PROJECT_DIR$/TestJdk11/src/Test2/J11Test1.java" />
         <option value="$PROJECT_DIR$/TestJdk11/src/Test2/J11Impl.java" />
-        <option value="$PROJECT_DIR$/TestJdk11/src/Test2/J11Main.java" />
         <option value="$PROJECT_DIR$/redisTest/src/main/resources/l.lua" />
         <option value="$PROJECT_DIR$/redisTest/src/main/java/OperationRedis/RedisTemplateTest/RedisConfig.java" />
         <option value="$PROJECT_DIR$/redisTest/src/main/java/OperationRedis/test2.java" />
@@ -333,6 +329,36 @@
         <option value="$PROJECT_DIR$/redisbootdemo/src/main/java/com/example/redisbootdemo/Test1/User.java" />
         <option value="$PROJECT_DIR$/redisbootdemo/src/test/java/com/example/redisbootdemo/RedisbootdemoApplicationTests.java" />
         <option value="$PROJECT_DIR$/redisTest/src/main/java/OperationRedis/RedisTemplateTest/TestEval.java" />
+        <option value="$PROJECT_DIR$/redisTest/src/main/java/OperationRedis/RedisTemplateTest/TestC.java" />
+        <option value="$PROJECT_DIR$/activity-service/pom.xml" />
+        <option value="$PROJECT_DIR$/activity-service/activity-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/TestJdk11/src/Test2/J11Main.java" />
+        <option value="$PROJECT_DIR$/RabbitMQTest/pom.xml" />
+        <option value="$PROJECT_DIR$/RabbitMQTest/src/main/java/Test1/provide/MyProducer.java" />
+        <option value="$PROJECT_DIR$/rabbitmq/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/example/rabbitmq/test1/provider/MyProduct.java" />
+        <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/example/rabbitmq/test1/consumer/MyConsumer.java" />
+        <option value="$PROJECT_DIR$/TestJdk11/src/test3/player.java" />
+        <option value="$PROJECT_DIR$/TestJdk11/src/test3/Aplayer.java" />
+        <option value="$PROJECT_DIR$/TestJdk11/src/test3/Bplayer.java" />
+        <option value="$PROJECT_DIR$/TestJdk11/src/test3/map4player.java" />
+        <option value="$PROJECT_DIR$/TestJdk11/src/test3/ContextPlayer.java" />
+        <option value="$PROJECT_DIR$/TestJdk11/src/test4/overload.java" />
+        <option value="$PROJECT_DIR$/TestJdk11/src/test4/JH.java" />
+        <option value="$PROJECT_DIR$/redisbootdemo/src/main/java/com/example/redisbootdemo/webfluxTest/MyRestController.java" />
+        <option value="$PROJECT_DIR$/testwebflux/src/main/java/com/example/testwebflux/RoutingConfiguration.java" />
+        <option value="$PROJECT_DIR$/testwebflux/src/main/java/com/example/testwebflux/RouterConfig.java" />
+        <option value="$PROJECT_DIR$/testwebflux/src/main/java/com/example/testwebflux/WebFluxConfig.java" />
+        <option value="$PROJECT_DIR$/testwebflux/src/main/java/com/example/testwebflux/TimeHandler.java" />
+        <option value="$PROJECT_DIR$/rsademo/src/main/java/com/rsa/rsademo/RSATEST/filter/CharactorFilter.java" />
+        <option value="$PROJECT_DIR$/testwebflux/src/main/java/com/example/testwebflux/MyHandler.java" />
+        <option value="$PROJECT_DIR$/testwebflux/pom.xml" />
+        <option value="$PROJECT_DIR$/testwebflux/src/main/java/com/example/testwebflux/TestwebfluxApplication.java" />
+        <option value="$PROJECT_DIR$/testwebflux/src/main/java/com/example/testwebflux/WebSocketConfig.java" />
+        <option value="$PROJECT_DIR$/testwebflux/src/main/resources/templates/index.html" />
+        <option value="$PROJECT_DIR$/testwebflux/src/main/java/com/example/testwebflux/TestApp.java" />
+        <option value="$PROJECT_DIR$/testwebflux/src/main/java/com/example/testwebflux/MyController.java" />
+        <option value="$PROJECT_DIR$/testwebflux/src/main/java/com/example/testwebflux/WebSocketTest.java" />
       </list>
     </option>
   </component>
@@ -397,9 +423,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="827" />
-    <option name="width" value="1320" />
-    <option name="height" value="1056" />
+    <option name="x" value="311" />
+    <option name="y" value="88" />
+    <option name="width" value="1395" />
+    <option name="height" value="822" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -568,8 +595,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -580,109 +607,44 @@
             <path>
               <item name="ServletDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="ServletDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="redisbootdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="testwebflux" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ServletDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="ServletDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="redisbootdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="testwebflux" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ServletDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="ServletDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="redisbootdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ServletDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ServletDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="redisbootdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="testwebflux" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ServletDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="ServletDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="redisbootdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="testwebflux" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ServletDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="ServletDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="redisbootdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="testwebflux" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ServletDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="ServletDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="redisbootdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="testwebflux" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="redisbootdemo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ServletDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ServletDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="redisbootdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="redisbootdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="Test1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ServletDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ServletDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="redisbootdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ServletDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ServletDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="redisbootdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ServletDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ServletDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="redisbootdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ServletDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ServletDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="redisbootdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ServletDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ServletDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="redisbootdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="example" type="462c0819:PsiDirectoryNode" />
@@ -690,48 +652,13 @@
             <path>
               <item name="ServletDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="ServletDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="redisbootdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="testwebflux" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="redisbootdemo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ServletDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ServletDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="redisTest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ServletDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ServletDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="redisTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ServletDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ServletDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="redisTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ServletDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ServletDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="redisTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ServletDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ServletDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="redisTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="OperationRedis" type="462c0819:PsiDirectoryNode" />
+              <item name="testwebflux" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -740,6 +667,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelOrder2" value="2" />
@@ -748,9 +676,9 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544000868298" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544765918126" />
     <property name="jdk.selected.JAVA_MODULE" value="11" />
-    <property name="last_opened_file_path" value="F:/eclipse/MySpringBoot/parent" />
+    <property name="last_opened_file_path" value="F:/eclipse/spring-boot-16-master" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.jscs" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -788,13 +716,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestEval">
-    <configuration name="RedisConfig" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.redisbootdemo.Test1.RedisConfig" />
-      <module name="redisbootdemo" />
+  <component name="RunManager" selected="Spring Boot.TestwebfluxApplication">
+    <configuration name="ContextPlayer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test3.ContextPlayer" />
+      <module name="TestJdk11" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.redisbootdemo.Test1.*" />
+          <option name="PATTERN" value="test3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -802,12 +730,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestEval" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OperationRedis.RedisTemplateTest.TestEval" />
-      <module name="redisTest" />
+    <configuration name="J11Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test2.J11Main" />
+      <module name="TestJdk11" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OperationRedis.RedisTemplateTest.*" />
+          <option name="PATTERN" value="Test2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -815,12 +743,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OperationRedis.test2" />
-      <module name="redisTest" />
+    <configuration name="MyConsumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.rabbitmq.test1.consumer.MyConsumer" />
+      <module name="rabbitmq" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OperationRedis.*" />
+          <option name="PATTERN" value="com.example.rabbitmq.test1.consumer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -828,34 +756,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RedisbootdemoApplicationTests.Test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="redisbootdemo" />
+    <configuration name="MyProduct" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.rabbitmq.test1.provider.MyProduct" />
+      <module name="rabbitmq" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.redisbootdemo.*" />
+          <option name="PATTERN" value="com.example.rabbitmq.test1.provider.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.example.redisbootdemo" />
-      <option name="MAIN_CLASS_NAME" value="com.example.redisbootdemo.RedisbootdemoApplicationTests" />
-      <option name="METHOD_NAME" value="Test1" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RedisbootdemoApplicationTests.Test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="redisbootdemo" />
+    <configuration name="overload" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test4.overload" />
+      <module name="TestJdk11" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.redisbootdemo.*" />
+          <option name="PATTERN" value="test4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.example.redisbootdemo" />
-      <option name="MAIN_CLASS_NAME" value="com.example.redisbootdemo.RedisbootdemoApplicationTests" />
-      <option name="METHOD_NAME" value="Test2" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -874,6 +796,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RabbitmqApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="rabbitmq" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.rabbitmq.RabbitmqApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RedisbootdemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="redisbootdemo" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.redisbootdemo.RedisbootdemoApplication" />
@@ -884,6 +813,13 @@
     <configuration name="RsademoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="rsademo" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.rsa.rsademo.RsademoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestwebfluxApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="testwebflux" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.testwebflux.TestwebfluxApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -1070,20 +1006,22 @@
       <item itemvalue="Spring Boot.DemoApplication" />
       <item itemvalue="Spring Boot.RsademoApplication" />
       <item itemvalue="Spring Boot.DemoApplication (1)" />
-      <item itemvalue="Application.test2" />
       <item itemvalue="Spring Boot.RedisbootdemoApplication" />
-      <item itemvalue="Application.RedisConfig" />
-      <item itemvalue="JUnit.RedisbootdemoApplicationTests.Test1" />
-      <item itemvalue="JUnit.RedisbootdemoApplicationTests.Test2" />
-      <item itemvalue="Application.TestEval" />
+      <item itemvalue="Spring Boot.RabbitmqApplication" />
+      <item itemvalue="Spring Boot.TestwebfluxApplication" />
+      <item itemvalue="Application.J11Main" />
+      <item itemvalue="Application.MyConsumer" />
+      <item itemvalue="Application.MyProduct" />
+      <item itemvalue="Application.ContextPlayer" />
+      <item itemvalue="Application.overload" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestEval" />
-        <item itemvalue="JUnit.RedisbootdemoApplicationTests.Test2" />
-        <item itemvalue="JUnit.RedisbootdemoApplicationTests.Test1" />
-        <item itemvalue="Application.RedisConfig" />
-        <item itemvalue="Application.test2" />
+        <item itemvalue="Application.overload" />
+        <item itemvalue="Application.ContextPlayer" />
+        <item itemvalue="Application.MyProduct" />
+        <item itemvalue="Application.MyConsumer" />
+        <item itemvalue="Application.J11Main" />
       </list>
     </recent_temporary>
   </component>
@@ -1108,7 +1046,14 @@
       <workItem from="1543796384685" duration="2963000" />
       <workItem from="1543821433539" duration="3816000" />
       <workItem from="1543888054503" duration="3770000" />
-      <workItem from="1543969166998" duration="18353000" />
+      <workItem from="1543969166998" duration="18753000" />
+      <workItem from="1544055894868" duration="6648000" />
+      <workItem from="1544149672706" duration="5962000" />
+      <workItem from="1544507240588" duration="8205000" />
+      <workItem from="1544574780806" duration="44000" />
+      <workItem from="1544575206330" duration="5344000" />
+      <workItem from="1544660901177" duration="18294000" />
+      <workItem from="1544759068359" duration="1981000" />
     </task>
     <task id="LOCAL-00001" summary="测试">
       <created>1543367539687</created>
@@ -1167,13 +1112,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="134030000" />
+    <option name="totallyTimeSpent" value="180908000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18070363" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19509594" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1182,8 +1127,8 @@
       <window_info id="Capture Tool" order="6" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26898047" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.39696312" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1225,133 +1170,24 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ShiroTest/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/ShiroTest/src/main/java/com/shiro/demo/domain/Role.java" />
-    <entry file="file://$PROJECT_DIR$/ShiroTest/src/main/java/com/shiro/demo/domain/User.java" />
-    <entry file="file://$PROJECT_DIR$/ShiroTest/src/main/java/com/shiro/demo/domain/Permission.java" />
-    <entry file="file://$PROJECT_DIR$/ShiroTest/src/main/java/com/shiro/demo/config/MyShiroRealm.java" />
-    <entry file="file://$PROJECT_DIR$/ShiroTest/src/main/java/com/shiro/demo/config/ShiroConfiguration.java" />
-    <entry file="file://$PROJECT_DIR$/ShiroTest/src/main/java/com/shiro/demo/service/ILoginSV.java" />
-    <entry file="file://$PROJECT_DIR$/ShiroTest/src/main/java/com/shiro/demo/service/impl/LoginImpl.java" />
-    <entry file="file://$PROJECT_DIR$/rsademo/src/main/java/com/rsa/rsademo/RSATEST/common/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rsademo/src/main/java/com/rsa/rsademo/RSATEST/filter/CharactorFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="32" column="50" selection-start-line="32" selection-start-column="50" selection-end-line="32" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/autol/servlet/service/TestService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/autol/servlet/service/TestServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/autol/servlet/servlet1/MyDispatcherServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/autol/servlet/controller/Test1Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/autol/servlet/controller/Test2Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/autol/Mybatis/sqlSession/SqlSessionFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="34" column="68" selection-start-line="34" selection-start-column="68" selection-end-line="34" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/autol/Mybatis/sqlSession/SqlSessionFactoryBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/autol/demo/DemoApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/autol/Mybatis/MainClass.java">
+    <entry file="file://$PROJECT_DIR$/redisTest/src/main/java/OperationRedis/RedisTemplateTest/TestEval.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="14" column="64" selection-start-line="14" selection-start-column="64" selection-end-line="14" selection-end-column="64" />
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/autol/ThreadTest/Test1/LambdaTest.java">
+    <entry file="file://$PROJECT_DIR$/redisbootdemo/src/main/java/com/example/redisbootdemo/Test1/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="516">
-          <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+        <state relative-caret-position="350">
+          <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/autol/ThreadTest/Test1/ThreadMethed.java">
+    <entry file="file://$PROJECT_DIR$/redisbootdemo/src/main/java/com/example/redisbootdemo/Test1/RedisConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://D:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="3146" column="18" selection-start-line="3146" selection-start-column="18" selection-end-line="3146" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/time/LocalDate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="1815" selection-start-line="1815" selection-end-line="1815" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/time/format/DateTimeFormatterBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1534">
-          <caret line="1705" column="17" selection-start-line="1705" selection-start-column="17" selection-end-line="1705" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/time/format/DateTimeFormatter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-9">
-          <caret line="554" column="65" lean-forward="true" selection-start-line="554" selection-start-column="65" selection-end-line="554" selection-end-column="65" />
+        <state relative-caret-position="150">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
@@ -1362,31 +1198,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/util/concurrent/locks/ReentrantLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1800">
-          <caret line="107" column="41" selection-start-line="107" selection-start-column="41" selection-end-line="107" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/util/concurrent/locks/Lock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3375">
-          <caret line="168" column="17" selection-start-line="168" selection-start-column="17" selection-end-line="168" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestJdk11/TestJdk11.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/redisTest/src/main/resources/l.lua" />
-    <entry file="jar://D:/lib-repository/redis/clients/jedis/2.9.0/jedis-2.9.0.jar!/redis/clients/jedis/Jedis.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="1016" column="18" selection-start-line="1016" selection-start-column="18" selection-end-line="1016" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TestJdk11/src/test1/TestJ8.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
@@ -1394,123 +1205,113 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TestJdk11/src/Test2/J11Test1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TestJdk11/src/Test2/J11Impl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
-          <folding>
-            <element signature="e#128#129#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RabbitMQTest/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/RabbitMQTest/src/main/java/Test1/provide/MyProducer.java" />
+    <entry file="file://$PROJECT_DIR$/rabbitmq/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/example/rabbitmq/test1/provider/MyProduct.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="823">
+          <caret line="35" column="67" selection-start-line="35" selection-start-column="67" selection-end-line="35" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/example/rabbitmq/test1/consumer/MyConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/redisTest/src/main/java/OperationRedis/Test1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-900">
+        <state relative-caret-position="300">
           <caret line="16" column="45" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestJdk11/src/Test2/J11Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="566">
-          <caret line="32" column="50" selection-start-line="32" selection-start-column="50" selection-end-line="32" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/redisTest/src/main/java/OperationRedis/RedisTemplateTest/RedisConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-300">
-          <caret line="47" column="43" selection-start-line="47" selection-start-column="43" selection-end-line="47" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/redisTest/src/main/java/OperationRedis/test2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="3" selection-start-line="2" selection-end-line="3" />
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/lib-repository/org/springframework/spring-context/5.1.3.RELEASE/spring-context-5.1.3.RELEASE.jar!/org/springframework/cache/annotation/CachingConfigurerSupport.class">
+    <entry file="file://$PROJECT_DIR$/TestJdk11/src/test3/player.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/lib-repository/org/springframework/spring-beans/5.1.3.RELEASE/spring-beans-5.1.3.RELEASE.jar!/org/springframework/beans/PropertyAccessor.class">
+    <entry file="file://$PROJECT_DIR$/TestJdk11/src/test3/Aplayer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        <state relative-caret-position="125">
+          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/lib-repository/org/springframework/data/spring-data-redis/2.1.3.RELEASE/spring-data-redis-2.1.3.RELEASE.jar!/org/springframework/data/redis/connection/RedisConnectionFactory.class">
+    <entry file="file://$PROJECT_DIR$/TestJdk11/src/test3/Bplayer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        <state relative-caret-position="125">
+          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestJdk11/src/test3/map4player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestJdk11/src/test3/ContextPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="27" column="44" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestJdk11/src/test4/overload.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestJdk11/src/test4/JH.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="15" lean-forward="true" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/util/Collection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="188" column="71" lean-forward="true" selection-start-line="188" selection-start-column="71" selection-end-line="188" selection-end-column="71" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/redisbootdemo/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
+        <state relative-caret-position="750">
           <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/redisbootdemo/src/main/java/com/example/redisbootdemo/Test1/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
-          <folding>
-            <element signature="e#202#203#0" expanded="true" />
-            <element signature="e#233#234#0" expanded="true" />
-            <element signature="e#281#282#0" expanded="true" />
-            <element signature="e#316#317#0" expanded="true" />
-            <element signature="e#346#347#0" expanded="true" />
-            <element signature="e#372#373#0" expanded="true" />
-            <element signature="e#410#411#0" expanded="true" />
-            <element signature="e#440#441#0" expanded="true" />
-            <element signature="e#484#485#0" expanded="true" />
-            <element signature="e#508#509#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/redisTest/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-178" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/redisbootdemo/src/test/java/com/example/redisbootdemo/RedisbootdemoApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/redisbootdemo/src/main/java/com/example/redisbootdemo/Test1/RedisConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="65" column="58" selection-start-line="65" selection-start-column="58" selection-end-line="65" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1521,34 +1322,166 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/redisbootdemo/src/main/java/com/example/redisbootdemo/Test1/RedisConfig.java">
+    <entry file="file://$PROJECT_DIR$/redisbootdemo/src/main/java/com/example/redisbootdemo/webfluxTest/MyRestController.java" />
+    <entry file="file://$PROJECT_DIR$/testwebflux/src/main/java/com/example/testwebflux/RoutingConfiguration.java" />
+    <entry file="file://$PROJECT_DIR$/testwebflux/src/main/java/com/example/testwebflux/TimeHandler.java" />
+    <entry file="file://$PROJECT_DIR$/testwebflux/src/main/java/com/example/testwebflux/RouterConfig.java" />
+    <entry file="file://$PROJECT_DIR$/testwebflux/src/main/java/com/example/testwebflux/WebFluxConfig.java" />
+    <entry file="jar://D:/lib-repository/org/springframework/spring-webflux/5.1.3.RELEASE/spring-webflux-5.1.3.RELEASE.jar!/org/springframework/web/reactive/function/server/RouterFunctions.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="43" column="131" selection-start-line="43" selection-start-column="69" selection-end-line="43" selection-end-column="131" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/lib-repository/org/springframework/spring-webflux/5.1.3.RELEASE/spring-webflux-5.1.3.RELEASE.jar!/org/springframework/web/reactive/function/server/HandlerFunction.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/concurrent/ConcurrentMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4802">
+          <caret line="62" column="17" selection-start-line="62" selection-start-column="17" selection-end-line="62" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/util/concurrent/ConcurrentMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="70" column="17" selection-start-line="70" selection-start-column="17" selection-end-line="70" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/util/concurrent/ConcurrentHashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="548">
+          <caret line="255" column="32" lean-forward="true" selection-start-line="255" selection-start-column="32" selection-end-line="255" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/util/concurrent/CountDownLatch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="162" column="43" selection-start-line="162" selection-start-column="43" selection-end-line="162" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rsademo/src/main/java/com/rsa/rsademo/RSATEST/filter/FilterConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rsademo/src/main/java/com/rsa/rsademo/RSATEST/filter/CharactorFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="34" column="14" lean-forward="true" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rsademo/src/main/java/com/rsa/rsademo/RsademoApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rsademo/src/main/java/com/rsa/rsademo/RSATEST/utils/RSAUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-725">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rsademo/src/main/java/com/rsa/rsademo/RSATEST/utils/Base64Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-900" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testwebflux/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/lib-repository/org/springframework/spring-context/5.1.3.RELEASE/spring-context-5.1.3.RELEASE.jar!/org/springframework/scheduling/annotation/Scheduled.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/lib-repository/org/springframework/spring-websocket/5.1.3.RELEASE/spring-websocket-5.1.3.RELEASE.jar!/org/springframework/web/socket/server/standard/ServerEndpointExporter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="31" column="11" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testwebflux/src/main/java/com/example/testwebflux/TestApp.java" />
+    <entry file="file://$PROJECT_DIR$/testwebflux/src/main/java/com/example/testwebflux/MyController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestJdk11/src/Test2/J11Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testwebflux/src/main/java/com/example/testwebflux/WebSocketConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testwebflux/src/main/java/com/example/testwebflux/WebSocketTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1047">
+          <caret line="112" column="9" selection-start-line="112" selection-start-column="9" selection-end-line="112" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testwebflux/src/main/java/com/example/testwebflux/TestwebfluxApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/redisbootdemo/src/main/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/testwebflux/src/main/resources/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="1" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/redisTest/src/main/java/OperationRedis/RedisTemplateTest/TestEval.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-150">
-          <caret line="48" column="66" selection-start-line="48" selection-start-column="66" selection-end-line="48" selection-end-column="66" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1918#2467#0" expanded="true" />
-            <element signature="e#2466#2467#0" expanded="true" />
-            <element signature="e#2885#3711#0" expanded="true" />
-            <element signature="e#3710#3711#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-353">
+          <caret line="29" column="17" lean-forward="true" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
         </state>
       </provider>
     </entry>

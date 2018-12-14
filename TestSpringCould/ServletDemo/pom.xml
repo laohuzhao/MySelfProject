@@ -9,6 +9,8 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>redisTest</module>
+        <module>activity-service</module>
+        <module>RabbitMQTest</module>
     </modules>
     <packaging>pom</packaging>
 

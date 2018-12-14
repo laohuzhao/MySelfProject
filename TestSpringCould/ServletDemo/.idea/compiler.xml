@@ -7,12 +7,19 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="demo" />
+        <module name="rabbitmq" />
+        <module name="RabbitMQTest" />
         <module name="redisbootdemo" />
         <module name="redisTest" />
         <module name="rsademo" />
+        <module name="testwebflux" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="activity-api" target="1.8" />
+      <module name="activity-provider" target="1.8" />
+      <module name="activity-service" target="1.8" />
+      <module name="RabbitMQTest" target="1.8" />
       <module name="ShiroTest" target="1.8" />
     </bytecodeTargetLevel>
   </component>

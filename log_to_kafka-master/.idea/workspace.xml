@@ -2,16 +2,64 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a88c0ba1-00a6-4a2b-9414-07314f81dcf2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../TestSpringCould/ServletDemo/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestSpringCould/ServletDemo/TestJdk11/src/Test2/J11Impl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestSpringCould/ServletDemo/TestJdk11/src/Test2/J11Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestSpringCould/ServletDemo/TestJdk11/src/Test2/J11Test1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestSpringCould/ServletDemo/TestJdk11/src/test1/TestJ8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestSpringCould/ServletDemo/redisTest/src/main/java/OperationRedis/RedisTemplateTest/TestC.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TestSpringCould/ServletDemo/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TestSpringCould/ServletDemo/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TestSpringCould/ServletDemo/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TestSpringCould/ServletDemo/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TestSpringCould/ServletDemo/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TestSpringCould/ServletDemo/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TestSpringCould/ServletDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TestSpringCould/ServletDemo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TestSpringCould/ServletDemo/rsademo/src/main/java/com/rsa/rsademo/RSATEST/filter/CharactorFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TestSpringCould/ServletDemo/rsademo/src/main/java/com/rsa/rsademo/RSATEST/filter/CharactorFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestSpringCould/ServletDemo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TestSpringCould/ServletDemo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestSpringCould/ServletDemo/redisTest/src/main/java/OperationRedis/RedisTemplateTest/TestEval.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TestSpringCould/ServletDemo/redisTest/src/main/java/OperationRedis/RedisTemplateTest/TestEval.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestSpringCould/ServletDemo/redisTest/target/classes/OperationRedis/RedisTemplateTest/TestEval$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TestSpringCould/ServletDemo/redisTest/target/classes/OperationRedis/RedisTemplateTest/TestEval$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestSpringCould/ServletDemo/redisTest/target/classes/OperationRedis/RedisTemplateTest/TestEval$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TestSpringCould/ServletDemo/redisTest/target/classes/OperationRedis/RedisTemplateTest/TestEval$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestSpringCould/ServletDemo/redisTest/target/classes/OperationRedis/RedisTemplateTest/TestEval.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TestSpringCould/ServletDemo/redisTest/target/classes/OperationRedis/RedisTemplateTest/TestEval.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/activity-service/activity-api/src/main/java/com/gupaoedu/activity/draw/ActivityTurntableDrawService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/activity-service/activity-api/src/main/java/com/gupaoedu/activity/draw/ActivityTurntableDrawService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/activity-service/activity-api/src/main/java/com/gupaoedu/activity/draw/bean/ActivityTurntableDrawReq.java" beforeDir="false" afterPath="$PROJECT_DIR$/../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/activity-service/activity-api/src/main/java/com/gupaoedu/activity/draw/bean/ActivityTurntableDrawReq.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/activity-service/activity-api/src/main/java/com/gupaoedu/activity/draw/bean/AwardDrawRecordBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/activity-service/activity-api/src/main/java/com/gupaoedu/activity/draw/bean/AwardDrawRecordBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/activity-service/activity-provider/src/main/java/com/gupaoedu/activity/notify/RegistryListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/activity-service/activity-provider/src/main/java/com/gupaoedu/activity/notify/RegistryListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/activity-service/activity-provider/src/main/java/com/gupaoedu/activity/notify/UserBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/activity-service/activity-provider/src/main/java/com/gupaoedu/activity/notify/UserBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/activity-service/activity-provider/src/main/java/com/gupaoedu/activity/services/ActivityTurntableDrawServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/activity-service/activity-provider/src/main/java/com/gupaoedu/activity/services/ActivityTurntableDrawServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/activity-service/activity-provider/src/main/java/com/gupaoedu/activity/services/processor/constants/DrawContants.java" beforeDir="false" afterPath="$PROJECT_DIR$/../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/activity-service/activity-provider/src/main/java/com/gupaoedu/activity/services/processor/constants/DrawContants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/activity-service/activity-provider/src/main/java/com/gupaoedu/activity/services/processor/constants/RedisKeyManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/activity-service/activity-provider/src/main/java/com/gupaoedu/activity/services/processor/constants/RedisKeyManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/activity-service/activity-provider/src/main/java/com/gupaoedu/activity/services/processor/exception/RewardException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/activity-service/activity-provider/src/main/java/com/gupaoedu/activity/services/processor/exception/RewardException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/activity-service/activity-provider/src/main/java/com/gupaoedu/activity/services/processor/exception/UnRewardException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/activity-service/activity-provider/src/main/java/com/gupaoedu/activity/services/processor/exception/UnRewardException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/gpmall-activity/src/main/java/com/gupaoedu/activity/controller/BaseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/gpmall-activity/src/main/java/com/gupaoedu/activity/controller/BaseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/gpmall-activity/src/main/java/com/gupaoedu/activity/controller/DrawController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/gpmall-activity/src/main/java/com/gupaoedu/activity/controller/DrawController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/gpmall-activity/src/main/java/com/gupaoedu/activity/intercept/TokenIntercepter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/gpmall-activity/src/main/java/com/gupaoedu/activity/intercept/TokenIntercepter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/gpmall-cashier/src/main/java/com/gupaoedu/cashier/controller/BaseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/gpmall-cashier/src/main/java/com/gupaoedu/cashier/controller/BaseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/gpmall-cashier/src/main/java/com/gupaoedu/cashier/controller/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/gpmall-cashier/src/main/java/com/gupaoedu/cashier/controller/IndexController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/gpmall-cashier/src/main/java/com/gupaoedu/cashier/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/gpmall-cashier/src/main/java/com/gupaoedu/cashier/controller/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/gpmall-common/src/main/java/com/gupaoedu/common/annotation/Anoymous.java" beforeDir="false" afterPath="$PROJECT_DIR$/../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/gpmall-common/src/main/java/com/gupaoedu/common/annotation/Anoymous.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/gpmall-common/src/main/java/com/gupaoedu/common/constants/GpmallWebConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/gpmall-common/src/main/java/com/gupaoedu/common/constants/GpmallWebConstant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/gpmall-sso/src/main/java/com/gupaoedu/sso/controller/BaseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/gpmall-sso/src/main/java/com/gupaoedu/sso/controller/BaseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/gpmall-sso/src/main/java/com/gupaoedu/sso/controller/CaptchaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/gpmall-sso/src/main/java/com/gupaoedu/sso/controller/CaptchaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/pay-service/pay-api/src/main/java/com/gupaoedu/pay/TransactionPayService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/pay-service/pay-api/src/main/java/com/gupaoedu/pay/TransactionPayService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/pay-service/pay-api/src/main/java/com/gupaoedu/pay/commons/AbstractRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/pay-service/pay-api/src/main/java/com/gupaoedu/pay/commons/AbstractRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/pay-service/pay-api/src/main/java/com/gupaoedu/pay/commons/AbstractResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/pay-service/pay-api/src/main/java/com/gupaoedu/pay/commons/AbstractResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/pay-service/pay-api/src/main/java/com/gupaoedu/pay/dto/PaymentNotifyRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/pay-service/pay-api/src/main/java/com/gupaoedu/pay/dto/PaymentNotifyRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/pay-service/pay-api/src/main/java/com/gupaoedu/pay/dto/PaymentNotifyResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/pay-service/pay-api/src/main/java/com/gupaoedu/pay/dto/PaymentNotifyResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/pay-service/pay-api/src/main/java/com/gupaoedu/pay/dto/PaymentRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/pay-service/pay-api/src/main/java/com/gupaoedu/pay/dto/PaymentRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/pay-service/pay-api/src/main/java/com/gupaoedu/pay/dto/PaymentResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/pay-service/pay-api/src/main/java/com/gupaoedu/pay/dto/PaymentResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/user-service/user-api/src/main/java/com/gupaoedu/user/IUserCoreService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/user-service/user-api/src/main/java/com/gupaoedu/user/IUserCoreService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/user-service/user-api/src/main/java/com/gupaoedu/user/IUserQueryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/user-service/user-api/src/main/java/com/gupaoedu/user/IUserQueryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/user-service/user-api/src/main/java/com/gupaoedu/user/abs/AbstractRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/user-service/user-api/src/main/java/com/gupaoedu/user/abs/AbstractRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/user-service/user-api/src/main/java/com/gupaoedu/user/abs/AbstractResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/user-service/user-api/src/main/java/com/gupaoedu/user/abs/AbstractResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/user-service/user-api/src/main/java/com/gupaoedu/user/constants/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/user-service/user-api/src/main/java/com/gupaoedu/user/constants/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/user-service/user-api/src/main/java/com/gupaoedu/user/constants/ResponseCodeEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/user-service/user-api/src/main/java/com/gupaoedu/user/constants/ResponseCodeEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/user-service/user-api/src/main/java/com/gupaoedu/user/dto/CheckAuthRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/user-service/user-api/src/main/java/com/gupaoedu/user/dto/CheckAuthRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/user-service/user-api/src/main/java/com/gupaoedu/user/dto/CheckAuthResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/user-service/user-api/src/main/java/com/gupaoedu/user/dto/CheckAuthResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/user-service/user-api/src/main/java/com/gupaoedu/user/dto/UserLoginRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/user-service/user-api/src/main/java/com/gupaoedu/user/dto/UserLoginRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/user-service/user-api/src/main/java/com/gupaoedu/user/dto/UserLoginResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/user-service/user-api/src/main/java/com/gupaoedu/user/dto/UserLoginResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/user-service/user-api/src/main/java/com/gupaoedu/user/dto/UserQueryRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/user-service/user-api/src/main/java/com/gupaoedu/user/dto/UserQueryRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/user-service/user-api/src/main/java/com/gupaoedu/user/dto/UserQueryResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/user-service/user-api/src/main/java/com/gupaoedu/user/dto/UserQueryResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/user-service/user-api/src/main/java/com/gupaoedu/user/dto/UserRegisterRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/user-service/user-api/src/main/java/com/gupaoedu/user/dto/UserRegisterRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/user-service/user-api/src/main/java/com/gupaoedu/user/dto/UserRegisterResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/user-service/user-api/src/main/java/com/gupaoedu/user/dto/UserRegisterResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/user-service/user-provider/src/main/java/com/gupaoedu/user/exception/ServiceException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/user-service/user-provider/src/main/java/com/gupaoedu/user/exception/ServiceException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/user-service/user-provider/src/main/java/com/gupaoedu/user/main/Bootstrap.java" beforeDir="false" afterPath="$PROJECT_DIR$/../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/user-service/user-provider/src/main/java/com/gupaoedu/user/main/Bootstrap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/user-service/user-provider/src/main/java/com/gupaoedu/user/notify/UnKnowMessageListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/user-service/user-provider/src/main/java/com/gupaoedu/user/notify/UnKnowMessageListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/user-service/user-provider/src/main/java/com/gupaoedu/user/services/UserCoreServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/user-service/user-provider/src/main/java/com/gupaoedu/user/services/UserCoreServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/user-service/user-provider/src/main/java/com/gupaoedu/user/services/UserQueryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/user-service/user-provider/src/main/java/com/gupaoedu/user/services/UserQueryServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/user-service/user-provider/src/main/java/com/gupaoedu/user/utils/JwtTokenUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../vip-project-space-master-7984f6dfe3bb59c995df2e814b407c32eac24ed8/user-service/user-provider/src/main/java/com/gupaoedu/user/utils/JwtTokenUtils.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,43 +72,55 @@
     <session id="1393802438">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.60" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="8" />
-          <entry key="properties" value="5" />
-          <entry key="xml" value="2" />
+          <entry key="class" value="1" />
+          <entry key="java" value="11" />
+          <entry key="properties" value="7" />
+          <entry key="xml" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="8" />
-          <entry key="Properties" value="5" />
-          <entry key="XML" value="2" />
+          <entry key="CLASS" value="1" />
+          <entry key="JAVA" value="11" />
+          <entry key="Properties" value="7" />
+          <entry key="XML" value="4" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/xuele/log/send/kafka/formatter/MessageFormatter.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="275">
               <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+              <folding>
+                <element signature="e#302#303#0" expanded="true" />
+                <element signature="e#352#353#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xuele/log/send/kafka/formatter/Formatter.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xuele/log/send/kafka/KafkaAppender.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="175">
+              <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+              <folding>
+                <element signature="e#4430#4431#0" expanded="true" />
+                <element signature="e#4468#4469#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -68,11 +128,45 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/xuele/log/send/kafka/formatter/JsonFormatter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-550">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            <state relative-caret-position="448">
+              <caret line="62" column="41" selection-start-line="62" selection-start-column="41" selection-end-line="62" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1484#1485#0" expanded="true" />
+                <element signature="e#1518#1519#0" expanded="true" />
+                <element signature="e#1583#1584#0" expanded="true" />
+                <element signature="e#1635#1636#0" expanded="true" />
+                <element signature="e#1687#1688#0" expanded="true" />
+                <element signature="e#1730#1731#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xuele/log/send/kafka/formatter/Formatter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/conf.properties">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/filters/log-dev.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="3" column="6" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -97,10 +191,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="788" />
-    <option name="y" value="35" />
-    <option name="width" value="1097" />
-    <option name="height" value="958" />
+    <option name="x" value="311" />
+    <option name="y" value="88" />
+    <option name="width" value="1395" />
+    <option name="height" value="822" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -286,8 +380,8 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543565294760" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544078016590" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../xitong" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
@@ -304,6 +398,26 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="SendTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.SendTest" />
+      <module name="log_to_kafka" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SendTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -315,43 +429,45 @@
       <option name="presentableId" value="Default" />
       <updated>1543562192397</updated>
       <workItem from="1543562195246" duration="1485000" />
+      <workItem from="1544073695921" duration="3004000" />
+      <workItem from="1544142019538" duration="22000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1485000" />
+    <option name="totallyTimeSpent" value="4511000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21002132" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21428572" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.42407808" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -361,18 +477,46 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/conf.properties">
+    <entry file="file://$PROJECT_DIR$/src/main/filters/log-test.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/filters/log-product.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-525" />
+        <state relative-caret-position="-1200" />
+      </provider>
+    </entry>
+    <entry file="jar://D:/lib-repository/ch/qos/logback/logback-core/1.1.7/logback-core-1.1.7.jar!/ch/qos/logback/core/AppenderBase.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/test/SendTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xuele/log/send/kafka/formatter/MessageFormatter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="e#302#303#0" expanded="true" />
+            <element signature="e#352#353#0" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xuele/log/send/kafka/KafkaAppender.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1925">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        <state relative-caret-position="175">
+          <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
           <folding>
             <element signature="e#4430#4431#0" expanded="true" />
             <element signature="e#4468#4469#0" expanded="true" />
@@ -380,47 +524,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/test/SendTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xuele/log/send/kafka/formatter/Formatter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        <state relative-caret-position="100">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1575" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/filters/log-test.properties">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/filters/log-product.properties">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/conf.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/filters/log-dev.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xuele/log/send/kafka/formatter/MessageFormatter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xuele/log/send/kafka/formatter/Formatter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xuele/log/send/kafka/formatter/JsonFormatter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-550">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        <state relative-caret-position="448">
+          <caret line="62" column="41" selection-start-line="62" selection-start-column="41" selection-end-line="62" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1484#1485#0" expanded="true" />
+            <element signature="e#1518#1519#0" expanded="true" />
+            <element signature="e#1583#1584#0" expanded="true" />
+            <element signature="e#1635#1636#0" expanded="true" />
+            <element signature="e#1687#1688#0" expanded="true" />
+            <element signature="e#1730#1731#0" expanded="true" />
           </folding>
         </state>
       </provider>

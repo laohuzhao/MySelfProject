@@ -29,7 +29,7 @@ public class J11Main {
         LocalDateTime now = LocalDateTime.now();
         //指定的格式输出
         DateTimeFormatter formatter =
-                DateTimeFormatter.ofPattern("y/M/d H:m:s   D w");//大写w是这个月的第几周，小写的事这一年的第几周,大写的D代表是这一年的第几天
+                DateTimeFormatter.ofPattern("yMdHms");//大写w是这个月的第几周，小写的事这一年的第几周,大写的D代表是这一年的第几天
         System.out.println(now.format(formatter));
     }
 }

@@ -11,7 +11,7 @@ public class TestEval {
     static String host = "localhost";
     static int honBaoCount = 100000;
     static int threadCount = 20;
-    static String hongBaoList = "hongBaoList";
+    static String hongBaoString = "hongBaoString";
     static String hongBaoConsumedList = "hongBaoConsumedList";
     static String hongBaoConsumedMap = "hongBaoConsumedMap";
 
@@ -60,7 +60,7 @@ public class TestEval {
                     for (int j = temp * per; j < (temp + 1) * per; j++) {
                         object.put("id", j);
                         object.put("money", j);
-                        jedis.lpush(hongBaoList, object.toJSONString());
+                        jedis.lpush(hongBaoString, object.toJSONString());
                     }
                     latch.countDown();
                 }
@@ -82,13 +82,13 @@ public class TestEval {
                     String sha = jedis.scriptLoad(tryGetHongBaoScript);
                     int j = honBaoCount / threadCount * temp;
                     while (true) {
-                        Object object = jedis.eval(tryGetHongBaoScript, 4, hongBaoList, hongBaoConsumedList, hongBaoConsumedMap, "" + j);
+                        Object object = jedis.eval(tryGetHongBaoScript, 4, hongBaoString, hongBaoConsumedList, hongBaoConsumedMap, "" + j);
                         j++;
                         if (object != null) {
 //							System.out.println("get hongBao:" + object);
                         } else {
                             //已经取完了
-                            if (jedis.llen(hongBaoList) == 0)
+                            if (jedis.llen(hongBaoString) == 0)
                                 break;
                         }
                     }

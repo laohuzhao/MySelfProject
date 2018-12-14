@@ -15,7 +15,7 @@ public class Test2Controller {
     public void myTest(HttpServletRequest request, HttpServletResponse response,
                        @MyRequestParam("param") String param){
         try {
-            response.getWriter().write( "Test2Controller:the param you send is :"+param);
+            response.getWriter().write( "Test2Controller:the param you main is :"+param);
         } catch (IOException e) {
             e.printStackTrace();
         }

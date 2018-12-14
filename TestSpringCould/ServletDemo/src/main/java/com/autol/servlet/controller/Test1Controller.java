@@ -20,7 +20,7 @@ public class Test1Controller {
     public void myTest(HttpServletRequest request, HttpServletResponse response,
                        @MyRequestParam("param") String param){
         try {
-            response.getWriter().write( "Test1Controller:the param you send is :"+param);
+            response.getWriter().write( "Test1Controller:the param you main is :"+param);
             testService.printParam(param);
         } catch (IOException e) {
             e.printStackTrace();

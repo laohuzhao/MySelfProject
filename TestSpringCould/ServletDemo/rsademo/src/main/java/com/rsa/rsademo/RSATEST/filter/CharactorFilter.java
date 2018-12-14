@@ -27,6 +27,7 @@ public class CharactorFilter implements Filter {
         Response.setCharacterEncoding("UTF-8");
         System.out.println("过滤开始");
         HttpServletRequest r=(HttpServletRequest)Request;
+
        String headerStr= r.getHeader("header");
        if ("token".equals(headerStr)){
            System.out.println("请求头"+headerStr);
