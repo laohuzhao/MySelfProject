@@ -16,7 +16,7 @@ public class TestC {
 
     }
 
-    /*放红包*/
+
     static public void generateTestData() throws InterruptedException {
         Jedis jedis = new Jedis("127.0.0.1");
         jedis.flushAll();
@@ -25,7 +25,7 @@ public class TestC {
     }
 
     /**
-     * 抢红包
+
      */
     static public void geterateTestData() throws InterruptedException {
         Jedis jedis = new Jedis("127.0.0.1");

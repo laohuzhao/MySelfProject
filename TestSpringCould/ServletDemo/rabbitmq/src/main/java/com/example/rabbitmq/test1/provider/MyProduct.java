@@ -24,6 +24,7 @@ public class MyProduct {
         factory.setPassword("guest");
 // 建立连接
         Connection conn = factory.newConnection();
+//
 // 创建消息通道
         Channel channel = conn.createChannel();
         String msg = "Hello world, Rabbit MQ";

@@ -13,6 +13,7 @@
         <option value="$PROJECT_DIR$/redisbootdemo/pom.xml" />
         <option value="$PROJECT_DIR$/rabbitmq/pom.xml" />
         <option value="$PROJECT_DIR$/testwebflux/pom.xml" />
+        <option value="$PROJECT_DIR$/qq_mail/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
