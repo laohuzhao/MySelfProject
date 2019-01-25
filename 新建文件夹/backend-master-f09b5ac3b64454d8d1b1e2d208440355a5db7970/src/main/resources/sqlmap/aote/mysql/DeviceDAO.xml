@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.sdk4.biz.aote.dao.DeviceDAO">
+
+    <sql id="allFields">
+        device_id,phone_number,device_type,manufacturer,device_user,area_code,area_id,local_address,generate_id,temperature,
+        working_state,processing_state,fuel_level_state,fuel_pressure_state,low_count_num,loop_time,stop_time,run_time,
+        pressure_state,pressure_time,old_pressure_time,pressure_minute,pressure_second,count_num,
+        longitude,longitude_degree,longitude_minute,longitude_second,latitude,latitude_degree,latitude_minute,latitude_second,
+        latest_time,p1,p2,p3,p4,version,upload_period,tag,add_time,custom_id,owner_time,status,
+        (select name from b_custom where b_custom.id=b_device.custom_id) as custom_id_,
+        (select name from b_dict_area where b_device.area_code=b_dict_area.code and b_dict_area.parent_id!='') as area_code_,
+        (select name from b_dict_dtype where b_device.device_type=b_dict_dtype.code) as device_type_,
+        (select name from b_dict_manuf where b_device.manufacturer=b_dict_manuf.code) as manufacturer_
+    </sql>
+    
+    <select id="getByDeviceId" resultType="Device">
+        select
+            <include refid="allFields" />
+        from b_device
+        where device_id = #{device_id} 
+    </select>
+    
+    <select id="getByPhoneNumber" resultType="Device">
+        select
+            <include refid="allFields" />
+        from b_device
+        where phone_number = #{phone_number} 
+    </select>
+    
+    <select id="getByGenerateId" resultType="Device">
+        select
+            <include refid="allFields" />
+        from b_device
+        where generate_id = #{generate_id} 
+    </select>
+    
+    <select id="totalState" resultType="DeviceStateTotal">
+        select 
+            sum(if(fuel_level_state=1 or fuel_level_state=2,1,0)) as fuel_level_fault,
+            sum(if(fuel_pressure_state=1,1,0)) as fuel_pressure_fault,
+            sum(if(working_state=1,1,0)) as shutting,
+            sum(if(processing_state=2,1,0)) as working,
+            sum(if(status=20,1,0)) as online,
+            sum(if(status=30,1,0)) offline  
+        from b_device 
+        where 1 = 1
+            <if test="custom_id != null"> and custom_id = #{custom_id}</if>
+    </select>
+    
+    <select id="totalCustomDeviceCount" resultType="Integer">
+        select count(*) rows_ 
+        from b_device 
+        where custom_id = #{custom_id} 
+    </select>
+    
+    <select id="count" resultType="Integer">
+        select
+            count(*) rows_
+        from b_device 
+        where 1 = 1
+            <if test="custom_id != null"> and custom_id = #{custom_id}</if>
+            <choose>
+                <when test="keyword != null">
+                    and (device_id = #{device_id} or exists(select * from b_custom where b_custom.name like #{keyword} and b_custom.id=b_device.custom_id))
+                </when>
+                <otherwise>
+                    <if test="device_id != null"> and device_id like #{device_id}</if>
+                    <if test="corp_name != null"> and exists(select * from b_custom where b_custom.name like #{corp_name} and b_custom.id=b_device.custom_id)</if>
+                </otherwise>
+            </choose>
+            <if test="device_type != null"> and device_type = #{device_type}</if>
+            <if test="manufacturer != null"> and manufacturer = #{manufacturer}</if>
+            <if test="area_id != null"> and area_id = #{area_id}</if>
+            <if test="area_code != null"> and area_code = #{area_code}</if>
+            <if test="working_state != null"> and working_state = #{working_state}</if>
+            <if test="processing_state != null"> and processing_state = #{processing_state}</if>
+            <if test="fuel_level_state != null"> and fuel_level_state = #{fuel_level_state}</if>
+            <if test="fuel_pressure_state != null"> and fuel_pressure_state = #{fuel_pressure_state}</if>
+            <if test="status != null">
+                and status in <foreach item="item" index="index" collection="status" open="(" separator="," close=")"> #{item} </foreach>
+            </if>
+            <if test="tag != null"> and tag like #{tag}</if>
+    </select>
+    
+    <select id="query" resultType="Device">
+        select
+            <include refid="allFields" />
+        from b_device 
+        where 1 = 1
+            <if test="custom_id != null"> and custom_id = #{custom_id}</if>
+            <choose>
+                <when test="keyword != null">
+                    and (device_id = #{device_id} or exists(select * from b_custom where b_custom.name like #{keyword} and b_custom.id=b_device.custom_id))
+                </when>
+                <otherwise>
+                    <if test="device_id != null"> and device_id like #{device_id}</if>
+                    <if test="corp_name != null"> and exists(select * from b_custom where b_custom.name like #{corp_name} and b_custom.id=b_device.custom_id)</if>
+                </otherwise>
+            </choose>
+            <if test="device_type != null"> and device_type = #{device_type}</if>
+            <if test="manufacturer != null"> and manufacturer = #{manufacturer}</if>
+            <if test="area_id != null"> and area_id = #{area_id}</if>
+            <if test="area_code != null"> and area_code = #{area_code}</if>
+            <if test="working_state != null"> and working_state = #{working_state}</if>
+            <if test="processing_state != null"> and processing_state = #{processing_state}</if>
+            <if test="fuel_level_state != null"> and fuel_level_state = #{fuel_level_state}</if>
+            <if test="fuel_pressure_state != null"> and fuel_pressure_state = #{fuel_pressure_state}</if>
+            <if test="status != null">
+                and status in <foreach item="item" index="index" collection="status" open="(" separator="," close=")"> #{item} </foreach>
+            </if>
+            <if test="tag != null"> and tag like #{tag}</if>
+        order by add_time desc 
+        <if test="start != null"> limit #{start}, #{size} </if> 
+    </select>
+    
+    <select id="queryIDS" resultType="Device">
+        select
+            <include refid="allFields" />
+        from b_device 
+        where device_id in <foreach item="item" index="index" collection="device_ids" open="(" separator="," close=")"> #{item} </foreach>
+        order by add_time desc 
+    </select>
+    
+    <insert id="insert" parameterType="Device">
+        insert into b_device 
+            (device_id,phone_number,device_type,manufacturer,device_user,area_code,area_id,local_address,generate_id,temperature,
+             working_state,processing_state,fuel_level_state,fuel_pressure_state,low_count_num,loop_time,stop_time,run_time,
+             pressure_state,pressure_time,old_pressure_time,pressure_minute,pressure_second,count_num,
+             longitude,longitude_degree,longitude_minute,longitude_second,latitude,latitude_degree,latitude_minute,latitude_second,
+             latest_time,p1,p2,p3,p4,version,upload_period,tag,add_time,custom_id,owner_time,status)
+        values
+            (#{device_id},#{phone_number},#{device_type},#{manufacturer},#{device_user},#{area_code},#{area_id},#{local_address},#{generate_id},#{temperature},
+             #{working_state},#{processing_state},#{fuel_level_state},#{fuel_pressure_state},#{low_count_num},#{loop_time},#{stop_time},#{run_time},
+             #{pressure_state},#{pressure_time},#{old_pressure_time},#{pressure_minute},#{pressure_second},#{count_num},
+             #{longitude},#{longitude_degree},#{longitude_minute},#{longitude_second},#{latitude},#{latitude_degree},#{latitude_minute},#{latitude_second},
+             #{latest_time},#{p1},#{p2},#{p3},#{p4},#{version},#{upload_period},#{tag},#{add_time},#{custom_id},#{owner_time},#{status})
+    </insert>
+    
+    <!-- 设置参数 -->
+    <update id="updateParams">
+        update b_device
+        set 
+            device_id = #{device_id}
+            <if test="p1 != null">, p1 = #{p1}</if>
+            <if test="p2 != null">, p2 = #{p2}</if>
+            <if test="p3 != null">, p3 = #{p3}</if>
+            <if test="p4 != null">, p4 = #{p4}</if>
+            <if test="version != null">, version = #{version}</if>
+            <if test="upload_period != null">, upload_period = #{upload_period}</if>
+        where device_id = #{device_id} 
+    </update>
+    
+    <update id="updateCustom">
+        update b_device
+        set 
+            custom_id = #{custom_id},
+            device_user = #{device_user},
+            owner_time = #{owner_time} 
+        where device_id = #{device_id} 
+    </update>
+    
+    <update id="updateInitData">
+        update b_device
+        set 
+            generate_id = #{generate_id},
+            device_type = #{device_type}, 
+            manufacturer = #{manufacturer},
+            device_user = #{device_user}, 
+            area_code = #{area_code}, 
+            area_id = #{area_id}, 
+            local_address = #{local_address}, 
+            p1 = #{p1}, 
+            p2 = #{p2}, 
+            p3 = #{p3}, 
+            p4 = #{p4}, 
+            version = #{version}, 
+            upload_period = #{upload_period}
+        where device_id = #{device_id} 
+    </update>
+    
+    <update id="syncData" parameterType="Device">
+        update b_device
+        set 
+            phone_number = #{phone_number}
+            <if test="device_type != null">, device_type = #{device_type}</if>
+            <if test="manufacturer != null">, manufacturer = #{manufacturer}</if>
+            <if test="device_user != null">, device_user = #{device_user}</if>
+            <if test="area_code != null">, area_code = #{area_code}</if>
+            <if test="local_address != null">, local_address = #{local_address}</if>
+            <if test="generate_id != null">, generate_id = #{generate_id}</if>
+            <if test="temperature != null">, temperature = #{temperature}</if>
+            <if test="working_state != null">, working_state = #{working_state}</if>
+            <if test="processing_state != null">, processing_state = #{processing_state}</if>
+            <if test="fuel_level_state != null">, fuel_level_state = #{fuel_level_state}</if>
+            <if test="fuel_pressure_state != null">, fuel_pressure_state = #{fuel_pressure_state}</if>
+            <if test="low_count_num != null">, low_count_num = #{low_count_num}</if>
+            <if test="loop_time != null">, loop_time = #{loop_time}</if>
+            <if test="stop_time != null">, stop_time = #{stop_time}</if>
+            <if test="run_time != null">, run_time = #{run_time}</if>
+            <if test="pressure_state != null">, pressure_state = #{pressure_state}</if>
+            <if test="pressure_time != null">, pressure_time = #{pressure_time}</if>
+            <if test="old_pressure_time != null">, old_pressure_time = #{old_pressure_time}</if>
+            <if test="pressure_minute != null">, pressure_minute = #{pressure_minute}</if>
+            <if test="pressure_second != null">, pressure_second = #{pressure_second}</if>
+            <if test="count_num != null">, count_num = #{count_num}</if>
+            <if test="longitude != null">, longitude = #{longitude}</if>
+            <if test="longitude_degree != null">, longitude_degree = #{longitude_degree}</if>
+            <if test="longitude_minute != null">, longitude_minute = #{longitude_minute}</if>
+            <if test="longitude_second != null">, longitude_second = #{longitude_second}</if>
+            <if test="latitude != null">, latitude = #{latitude}</if>
+            <if test="latitude_degree != null">, latitude_degree = #{latitude_degree}</if>
+            <if test="latitude_minute != null">, latitude_minute = #{latitude_minute}</if>
+            <if test="latitude_second != null">, latitude_second = #{latitude_second}</if>
+            <if test="latest_time != null">, latest_time = #{latest_time}</if>
+            <if test="p1 != null">, p1 = #{p1}</if>
+            <if test="p2 != null">, p2 = #{p2}</if>
+            <if test="p3 != null">, p3 = #{p3}</if>
+            <if test="p4 != null">, p4 = #{p4}</if>
+            <if test="version != null">, version = #{version}</if>
+            <if test="upload_period != null">, upload_period = #{upload_period}</if>
+            <if test="status != null">, status = #{status}</if>
+        where phone_number = #{phone_number} 
+    </update>
+    
+    <update id="updateStatus">
+        update b_device
+        set 
+            status = #{status} 
+        where device_id = #{device_id} 
+    </update>
+    
+    <update id="updateTag">
+        update b_device
+        set 
+            tag = #{tag} 
+        where device_id = #{device_id} 
+    </update>
+    
+    <delete id="delete">
+        delete from b_device 
+        where device_id = #{device_id}
+    </delete>
+    
+    <!-- DATA.UPDATE -->
+    <select id="countDataUpdate" resultType="Integer">
+        select
+            count(*) rows_
+        from b_at_log 
+        where type = 'UPDATE' 
+            <if test="custom_id != null"> and device_id in (select device_id from b_device where custom_id = #{custom_id})</if> 
+    </select>
+    
+    <select id="queryDataUpdate" resultType="DataUpdateTime">
+        select
+            device_id,req_time update_time 
+        from b_at_log
+        where type = 'UPDATE' 
+            <if test="custom_id != null"> and device_id in (select device_id from b_device where custom_id = #{custom_id})</if> 
+        order by req_time desc 
+        <if test="start != null"> limit #{start}, #{size} </if> 
+    </select>
+</mapper>

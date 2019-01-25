@@ -1,0 +1,51 @@
+stages:
+  - stop
+  - build
+  - start
+
+docker-compose-stop:
+  script:
+    - docker-compose -f docker-compose-server-tomcat.yml -p autol stop
+  only:
+    - master
+  stage: stop
+  allow_failure: true
+  variables:
+    GIT_STRATEGY: none
+
+build:
+  script:
+    - docker-compose -f docker-compose-build.yml -p autol up --build --abort-on-container-exit
+    #- docker run -v "$(pwd)"/docs:/srv/gitbook -v "$(pwd)"/book:/srv/html fellah/gitbook /bin/bash -c "gitbook install && gitbook build . /srv/html"
+    #- mkdir -p /data/autol/web/book
+    #- cp -r book/* /data/autol/web/book/
+    - cd adminui/
+    - cnpm install
+    - cnpm install --save babel-polyfill
+    - cnpm run build
+    - mkdir -p /data/autol/web/admin
+    - cp -r ../src/main/webapp/page/* /data/autol/web/admin/
+
+  only:
+    - master
+  stage: build
+
+up:
+  script:
+    - docker-compose -f docker-compose-server-tomcat.yml -p autol up -d --build
+  only:
+    - master
+  stage: start
+  variables:
+    GIT_STRATEGY: none
+
+nginx-setting:
+  script:
+    - cp host.nginx.conf /etc/nginx/sites-enabled/autol.conf
+    - service nginx restart
+  only:
+    - master
+  stage: start
+  variables:
+    GIT_STRATEGY: none
+

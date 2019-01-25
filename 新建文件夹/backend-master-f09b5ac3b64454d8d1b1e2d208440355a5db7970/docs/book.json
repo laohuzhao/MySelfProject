@@ -1,0 +1,30 @@
+{
+  "title": "润滑监控系统",
+  "author": "CNJUN",
+  "description": "润滑监控系统设计说明书",
+  "structure": {
+    "readme": "README.md"
+  },
+  "links": {
+    "sidebar": {
+        "系统": "http://www.sdk4.com/"
+    },
+    "gitbook": false,
+    "sharing": {
+      "google": false,
+      "facebook": false,
+      "twitter": false,
+      "all": false
+    }
+  },
+  "plugins": [
+      "splitter",
+      "anchors"
+  ],
+  "pluginsConfig": {
+    "simple-page-toc": {
+      "maxDepth": 3,
+      "skipFirstH1": true
+    }
+  }
+}

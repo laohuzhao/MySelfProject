@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.sdk4.biz.aote.dao.CustomDAO">
+
+    <sql id="allFields">
+        id,code,name,contact,mobile,address,account,password,add_time,sms_push,sms_alarm,device_count,status,user_id
+    </sql>
+    
+    <select id="get" resultType="Custom">
+        select
+            <include refid="allFields" />
+        from b_custom
+        where id = #{id}
+    </select>
+    
+    <select id="getByMobileOrAccount" resultType="Custom">
+        select
+            <include refid="allFields" />
+        from b_custom
+        where mobile = #{mobile} or BINARY account = #{account}
+    </select>
+    
+    <select id="getByMobile" resultType="Custom">
+        select
+            <include refid="allFields" />
+        from b_custom
+        where mobile = #{mobile}
+    </select>
+    
+    <select id="getByAccount" resultType="Custom">
+        select
+            <include refid="allFields" />
+        from b_custom
+        where BINARY account = #{account}
+    </select>
+    
+    <select id="getMaxCode" resultType="String">
+        select max(code) maxcode from b_custom
+    </select>
+    
+    <select id="count" resultType="Integer">
+        select
+            count(*) rows_
+        from b_custom 
+        where 1 = 1 
+            <if test="keyword != null"> 
+                and (name like #{keyword} or mobile like #{keyword} or id in (select custom_id from sys_user where name like #{keyword} or mobile like #{keyword}))
+            </if>
+    </select>
+    
+    <select id="query" resultType="Custom">
+        select
+            <include refid="allFields" />
+        from b_custom
+        where 1 = 1 
+            <if test="keyword != null"> 
+                and (name like #{keyword} or mobile like #{keyword} or id in (select custom_id from sys_user where name like #{keyword} or mobile like #{keyword}))
+            </if>
+        order by add_time desc 
+        <if test="start != null"> limit #{start}, #{size} </if> 
+    </select>
+    
+    <select id="search" resultType="Custom">
+        select
+            id,name
+        from b_custom
+        where name like #{keyword} and status = 20
+        order by name
+    </select>
+    
+    <insert id="insert" parameterType="Custom">
+        insert into b_custom
+            (id,code,name,contact,mobile,address,account,password,add_time,sms_push,sms_alarm,device_count,status,user_id)
+        values
+            (#{id},#{code},#{name},#{contact},#{mobile},#{address},#{account},#{password},#{add_time},#{sms_push},#{sms_alarm},#{device_count},#{status},#{user_id})
+    </insert>
+    
+    <update id="update" parameterType="Custom">
+        update b_custom 
+        set id = #{id} 
+            <if test="name != null">, name = #{name}</if>
+            <if test="contact != null">, contact = #{contact}</if>
+            <if test="mobile != null">, mobile = #{mobile}</if>
+            <if test="address != null">, address = #{address}</if>
+            <if test="account != null">, account = #{account}</if>
+            <if test="password != null">, password = #{password}</if>
+            <if test="sms_push != null">, sms_push = #{sms_push}</if>
+            <if test="sms_alarm != null">, sms_alarm = #{sms_alarm}</if>
+            <if test="device_count != null">, device_count = #{device_count}</if>
+            <if test="status != null">, status = #{status}</if>
+            <if test="user_id != null">, user_id = #{user_id}</if>
+        where id = #{id}
+    </update>
+    
+    <update id="updateDeviceCount">
+        update b_custom 
+        set device_count = #{device_count} 
+        where id = #{id}
+    </update>
+</mapper>

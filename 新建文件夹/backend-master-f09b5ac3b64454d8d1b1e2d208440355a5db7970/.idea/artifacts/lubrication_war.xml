@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="lubrication:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="autol.war">
+      <element id="artifact" artifact-name="lubrication:war exploded" />
+    </root>
+  </artifact>
+</component>

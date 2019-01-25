@@ -1,0 +1,61 @@
+{
+    xlstype: 'config',
+    sheets: [{
+        showTitle: false,
+        showHeader: true,
+        startRow: 1,
+        startCol: 1,
+        header: {
+            height: 320,
+            fontName: '',
+            fontColor: 0,
+            fontBold: 800,
+            fontHeight: 180
+        },
+        row: {
+            height: 320,
+            fontName: '',
+            fontColor: 0,
+            fontBold: 360,
+            fontHeight: 180
+        },
+        columns: [
+            {"align":"center","dataIndex":"device_id","type":"string","width":100,"text":"设备编号"},
+            {"align":"center","dataIndex":"phone_number","type":"string","width":80,"text":"手机号"},
+            {"align":"center","dataIndex":"custom_id_","type":"string","width":110,"text":"用户"},
+            {"align":"center","dataIndex":"device_type_","type":"string","width":70,"text":"设备类别"},
+            {"align":"center","dataIndex":"manufacturer_","type":"string","width":70,"text":"生产厂家"},
+            {"align":"center","dataIndex":"area_code_","type":"string","width":70,"text":"地域码"},
+            {"align":"center","dataIndex":"local_address","type":"string","width":70,"text":"设备流水号"},
+            {"align":"center","dataIndex":"tag","type":"string","width":70,"text":"设备标签"},
+            {"align":"center","dataIndex":"temperature","type":"string","width":50,"text":"环境温度"},
+            {"align":"center","dataIndex":"working_state","type":"string","width":50,"text":"工作状态"},
+            {"align":"center","dataIndex":"processing_state","type":"string","width":50,"text":"运行状态"},
+            {"align":"center","dataIndex":"fuel_pressure_state","type":"string","width":50,"text":"油压状态"},
+            {"align":"center","dataIndex":"fuel_level_state","type":"string","width":50,"text":"油位状态"},
+            {"align":"center","dataIndex":"low_count_num","type":"string","width":80,"text":"低油位运行次数"},
+            {"align":"center","dataIndex":"loop_time","type":"string","width":80,"text":"工作循环时间"},
+            {"align":"center","dataIndex":"stop_time","type":"string","width":80,"text":"休止时间"},
+            {"align":"center","dataIndex":"run_time","type":"string","width":80,"text":"润滑时间"},
+            {"align":"center","dataIndex":"pressure_time","type":"string","width":80,"text":"到压时间"},
+            {"align":"center","dataIndex":"pressure_state","type":"string","width":80,"text":"到压状态"},
+            {"align":"center","dataIndex":"old_pressure_time","type":"string","width":80,"text":"历史到压时间"},
+            {"align":"center","dataIndex":"pressure_minute","type":"string","width":80,"text":"到压时间（分钟）"},
+            {"align":"center","dataIndex":"pressure_second","type":"string","width":80,"text":"到压时间（秒）"},
+            {"align":"center","dataIndex":"count_num","type":"string","width":80,"text":"润滑累计次数"},
+            {"align":"center","dataIndex":"latest_time","type":"string","width":100,"text":"最新时间"},
+            {"align":"center","dataIndex":"longitude_degree","type":"string","width":80,"text":"经度（度）"},
+            {"align":"center","dataIndex":"longitude_minute","type":"string","width":80,"text":"经度（分）"},
+            {"align":"center","dataIndex":"longitude_second","type":"string","width":80,"text":"经度（秒）"},
+            {"align":"center","dataIndex":"latitude_degree","type":"string","width":80,"text":"纬度（度）"},
+            {"align":"center","dataIndex":"latitude_minute","type":"string","width":80,"text":"纬度（分）"},
+            {"align":"center","dataIndex":"latitude_second","type":"string","width":80,"text":"纬度（秒）"},
+            {"align":"center","dataIndex":"p1","type":"string","width":50,"text":"参数P1"},
+            {"align":"center","dataIndex":"p2","type":"string","width":50,"text":"参数P2"},
+            {"align":"center","dataIndex":"p3","type":"string","width":50,"text":"参数P3"},
+            {"align":"center","dataIndex":"p4","type":"string","width":50,"text":"参数P4"},
+            {"align":"center","dataIndex":"version","type":"string","width":60,"text":"当前版本号"},
+            {"align":"center","dataIndex":"upload_period","type":"string","width":50,"text":"上传周期"}
+        ]
+    }]
+}

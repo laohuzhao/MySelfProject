@@ -1,0 +1,30 @@
+{
+    xlstype: 'config',
+    sheets: [{
+        showTitle: false,
+        showHeader: true,
+        startRow: 1,
+        startCol: 1,
+        header: {
+            height: 320,
+            fontName: '',
+            fontColor: 0,
+            fontBold: 800,
+            fontHeight: 180
+        },
+        row: {
+            height: 320,
+            fontName: '',
+            fontColor: 0,
+            fontBold: 360,
+            fontHeight: 180
+        },
+        columns: [
+            {"align":"center","dataIndex":"device_id","type":"string","width":120,"text":"设备编号"},
+            {"align":"center","dataIndex":"type","type":"string","width":110,"text":"预警类型"},
+            {"align":"center","dataIndex":"content","type":"string","width":300,"text":"报警提醒"},
+            {"align":"center","dataIndex":"add_time","type":"string","width":150,"text":"报警时间"},
+            {"align":"center","dataIndex":"read_time","type":"string","width":150,"text":"查看时刻"}
+        ]
+    }]
+}

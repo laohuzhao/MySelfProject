@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.sdk4.biz.aote.dao.NotifyDAO">
+
+    <sql id="allFields">
+        id,device_id,type,date_str,content,add_time,read_time,sms_send,sms_mobile,sms_time
+    </sql>
+    
+    <select id="get" resultType="Notify">
+        select
+            <include refid="allFields" />
+        from b_notify
+        where id = #{id}
+    </select>
+    
+    <select id="count" resultType="Integer">
+        select
+            count(*) rows_
+        from b_notify 
+        where 1 = 1 
+            <if test="custom_id != null"> and device_id in (select device_id from b_device where custom_id = #{custom_id})</if> 
+            <if test="device_id != null"> and device_id = #{device_id} </if>
+            <if test="date_str != null"> and date_str = #{date_str}</if>
+            <if test="from_time != null"> and add_time >= #{from_time}</if>
+            <if test="to_time != null"> and add_time &lt;= #{to_time} </if>
+            <if test="type != null">
+                and type in <foreach item="item" index="index" collection="type" open="(" separator="," close=")"> #{item} </foreach>
+            </if>
+    </select>
+    
+    <select id="query" resultType="Notify">
+        select
+            <include refid="allFields" />
+        from b_notify
+        where 1 = 1 
+            <if test="custom_id != null"> and device_id in (select device_id from b_device where custom_id = #{custom_id})</if>
+            <if test="device_id != null"> and device_id = #{device_id} </if>
+            <if test="date_str != null"> and date_str = #{date_str}</if>
+            <if test="from_time != null"> and add_time >= #{from_time}</if>
+            <if test="to_time != null"> and add_time &lt;= #{to_time} </if>
+            <if test="type != null">
+                and type in <foreach item="item" index="index" collection="type" open="(" separator="," close=")"> #{item} </foreach>
+            </if>
+        order by add_time desc 
+        <if test="start != null"> limit #{start}, #{size} </if> 
+    </select>
+    
+    <select id="countDays" resultType="Integer">
+        select
+            count(distinct date_str) rows_ 
+        from b_notify 
+        where 1 = 1 
+            <if test="custom_id != null"> and device_id in (select device_id from b_device where custom_id = #{custom_id})</if>
+    </select>
+    
+    <select id="totalDays" resultType="NotifyDaysTotal">
+        select
+            date_str,count(*) rows_,sum(if(read_time is null,1,0)) unread
+        from b_notify 
+        where 1 = 1 
+            <if test="custom_id != null"> and device_id in (select device_id from b_device where custom_id = #{custom_id})</if>
+        group by date_str 
+        order by date_str desc
+        <if test="start != null"> limit #{start}, #{size} </if> 
+    </select>
+    
+    <update id="setReadTime">
+        update b_notify 
+        set read_time = #{read_time} 
+        where date_str = #{date_str} 
+            <if test="custom_id != null"> and device_id in (select device_id from b_device where custom_id = #{custom_id})</if>
+    </update>
+    
+    <update id="read">
+        update b_notify 
+        set read_time = #{read_time} 
+        where id = #{id} 
+    </update>
+    
+    <insert id="insert" parameterType="Notify">
+        insert into b_notify
+            (id,device_id,type,date_str,content,add_time,read_time,sms_send,sms_mobile,sms_time)
+        values
+            (#{id},#{device_id},#{type},#{date_str},#{content},#{add_time},#{read_time},#{sms_send},#{sms_mobile},#{sms_time})
+    </insert>
+    
+</mapper>

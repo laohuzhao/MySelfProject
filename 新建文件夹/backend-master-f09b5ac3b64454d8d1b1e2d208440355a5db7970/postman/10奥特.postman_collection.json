@@ -1,0 +1,268 @@
+{
+	"info": {
+		"name": "10奥特",
+		"_postman_id": "a4ee16f2-1845-9881-673c-af265a1c74fb",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "1系统",
+			"description": "",
+			"item": [
+				{
+					"name": "API版本号",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Authorization",
+								"value": "Token {token}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"method\": \"version\"\n}"
+						},
+						"url": "{{autol_apiurl}}",
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "登录",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									"var jsonData = JSON.parse(responseBody);",
+									"",
+									"if (jsonData.code === 0) {",
+									"    postman.setGlobalVariable(\"aotel_token\", jsonData.data.token);",
+									"}",
+									""
+								]
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Authorization",
+								"value": "Token {{aotel_token}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"method\": \"user.login\",\n    \"client_type\": \"ios\",\n    \"client_id\": \"DEVICE_ID\",\n    \"username\": \"admin\",\n    \"password\": \"111111\"\n}"
+						},
+						"url": "{{autol_apiurl}}",
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "退出",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Authorization",
+								"value": "Token {{aotel_token}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"method\": \"user.logout\"\n}"
+						},
+						"url": "{{autol_apiurl}}",
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "账号信息",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Authorization",
+								"value": "Token {{aotel_token}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": "{{autol_apiurl}}/user/account",
+						"description": ""
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "2业务接口",
+			"description": "",
+			"item": [
+				{
+					"name": "设备全局情况",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Authorization",
+								"value": "Token {{aotel_token}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"method\": \"dashboard\"\n}"
+						},
+						"url": "{{autol_apiurl}}",
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "设备数据实时更新",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Authorization",
+								"value": "Token {{aotel_token}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"method\": \"data.upate\"\n}"
+						},
+						"url": "{{autol_apiurl}}",
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "设备报警记录",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Authorization",
+								"value": "Token {{aotel_token}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"method\": \"alarm.list\"\n}"
+						},
+						"url": "{{autol_apiurl}}",
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "设备报警记录详情",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Authorization",
+								"value": "Token {{aotel_token}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"method\": \"alarm.detail\",\n    \"date\": \"2017-09-07\"\n}"
+						},
+						"url": "{{autol_apiurl}}",
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "设备列表",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Authorization",
+								"value": "Token {{aotel_token}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"method\" : \"device.query\",\n  \"working_state\": 1,\n  \"page_index\" : 1,\n  \"page_size\" : 10\n}"
+						},
+						"url": "{{autol_apiurl}}",
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "设备指令",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Authorization",
+								"value": "Token {{aotel_token}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"method\" : \"device.command\",\n  \"device_id\": \"15036011327\",\n  \"cmd\" : \"STOP\"\n}"
+						},
+						"url": "{{autol_apiurl}}",
+						"description": ""
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

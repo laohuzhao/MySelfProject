@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.sdk4.biz.aote.dao.SysApiLogDAO">
+
+    <sql id="allFields">
+        method,from_ip,token,client_type,user_type,user_id,
+        req_time,req_content,resp_time,resp_content,resp_code,resp_message
+    </sql>
+    
+    <insert id="insert" parameterType="SysApiLog">
+        insert into sys_api_log
+            (method,from_ip,token,client_type,user_type,user_id,
+             req_time,req_content,resp_time,resp_content,resp_code,resp_message)
+        values
+            (#{method},#{from_ip},#{token},#{client_type},#{user_type},#{user_id},
+             #{req_time},#{req_content},#{resp_time},#{resp_content},#{resp_code},#{resp_message})
+    </insert>
+    
+</mapper>

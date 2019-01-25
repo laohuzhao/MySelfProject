@@ -1,0 +1,29 @@
+version: '3'
+services:
+  db:
+    container_name: autol-mysql
+    image: mysql
+    volumes:
+      - ./data/autol/db/data:/var/lib/mysql
+    restart: always
+    environment:
+      - MYSQL_ROOT_PASSWORD=NuwJYK4s4MGpbY
+      - MYSQL_DATABASE=autol
+      - MYSQL_USER=autol
+      - MYSQL_PASSWORD=AFrokRANYodgYqfdnCpHc4RA
+      - TZ=Asia/Shanghai
+    ports:
+      - 3317:3306
+
+  maven:
+    container_name: autol-maven
+    restart: always
+    build: ./
+    depends_on:
+      - db
+    ports:
+      - 8019:8080
+    volumes:
+      - ./target:/app/target
+    command: bash -c "./wait_for_it.sh -t 60 db:3306 -- ./build.sh"
+

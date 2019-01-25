@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.sdk4.biz.aote.dao.AtLogDAO">
+
+    <sql id="allFields">
+        id,device_id,phone_number,generate_id,type,
+        req_time,req_content,resp_time,resp_content,resp_code,resp_message,exception
+    </sql>
+    
+    <insert id="insert" parameterType="AtLog">
+        insert into b_at_log
+            (id,device_id,phone_number,generate_id,type,
+             req_time,req_content,resp_time,resp_content,resp_code,resp_message,exception)
+        values
+            (#{id},#{device_id},#{phone_number},#{generate_id},#{type},
+             #{req_time},#{req_content},#{resp_time},#{resp_content},#{resp_code},#{resp_message},#{exception})
+    </insert>
+    
+</mapper>

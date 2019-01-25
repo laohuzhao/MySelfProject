@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.sdk4.biz.aote.dao.DictDAO">
+
+    <sql id="allFields">
+        id,code,name,parent_id,parent_code
+    </sql>
+    
+    <!-- 用户 -->
+    <select id="queryCustom" resultType="Dict">
+        select code,name from b_custom order by code
+    </select>
+    
+    <!-- 设备类型 -->
+    <select id="queryDeviceType" resultType="Dict">
+        select
+            <include refid="allFields" />
+        from b_dict_dtype
+        order by code
+    </select>
+    
+    <insert id="insertDeviceType" parameterType="Dict">
+        insert into b_dict_dtype (id,code,name,parent_id,parent_code) 
+        values (#{id},#{code},#{name},#{parent_id},#{parent_code})
+    </insert>
+    
+    <update id="updateDeviceType" parameterType="Dict">
+        update b_dict_dtype
+        set code = #{code}, name = #{name} 
+        where code = #{code}
+    </update>
+    
+    <delete id="deleteDeviceType">
+        delete from b_dict_dtype
+        where code = #{code}
+    </delete>
+    
+    <!-- 生成厂家 -->
+    <select id="getManufacturerMaxCode" resultType="String">
+        select max(code) maxcode from b_dict_manuf
+    </select>
+    
+    <select id="queryManufacturer" resultType="Dict">
+        select
+            <include refid="allFields" />,extra
+        from b_dict_manuf 
+        where 1 = 1
+           <if test="extra != null"> and extra like #{extra}</if>
+        order by code
+    </select>
+    
+    <insert id="insertManufacturer" parameterType="Dict">
+        insert into b_dict_manuf (id,code,name,parent_id,parent_code,extra) 
+        values (#{id},#{code},#{name},#{parent_id},#{parent_code},#{extra})
+    </insert>
+    
+    <update id="updateManufacturer" parameterType="Dict">
+        update b_dict_manuf
+        set code = #{code}, name = #{name}, extra = #{extra} 
+        where code = #{code}
+    </update>
+    
+    <delete id="deleteManufacturer">
+        delete from b_dict_manuf
+        where code = #{code}
+    </delete>
+    
+    <!-- 地域码 -->
+    <select id="queryAreaCode" resultType="Dict">
+        select 
+            <include refid="allFields" />
+        from b_dict_area 
+        where 1 = 1 
+            <if test="parent_id != null"> and parent_id = #{parent_id}</if>
+        order by code
+    </select>
+    
+    <select id="getAllCity" resultType="Dict">
+        select 
+            <include refid="allFields" />
+        from b_dict_area 
+        where parent_id is not null and parent_id != '' 
+        order by code
+    </select>
+    
+    <insert id="insertAreaCode" parameterType="Dict">
+        insert into b_dict_area (id,code,name,parent_id,parent_code) 
+        values (#{id},#{code},#{name},#{parent_id},#{parent_code})
+    </insert>
+    
+    <update id="updateAreaCode" parameterType="Dict">
+        update b_dict_area
+        set code = #{code}, name = #{name} 
+        where id = #{id}
+    </update>
+    
+    <delete id="deleteAreaCode">
+        delete from b_dict_area
+        where id = #{id}
+    </delete>
+    
+</mapper>

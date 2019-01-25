@@ -1,0 +1,7 @@
+<form id="" action="dologin" method="post">
+    <label>User Name</label>
+    <input tyep="text" name="username"  maxLength="40" /><br/>
+    <label>Password</label>
+    <input type="password" name="password" /><br/>
+    <input type="submit" value="login" />  
+</form>  

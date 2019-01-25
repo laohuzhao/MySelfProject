@@ -1,0 +1,34 @@
+1.java是一种技术，由4方面组成：Java编程语言、Java类文件格式、Java虚拟机和Java应用程序。
+2.就是因为有了Java虚拟机，才实现了程序与操作系统的分离，从而实现了Java的平台无关性
+3.JVM在它的生命周期中有一个明确的任务，那就是运行Java程序，因此当Java程序启动的时候，就生产一个JVM实例；当程序运行结束的时候，该实例
+	也就跟着消失了。
+4.Java虚拟机的体系结构
+	每个JVM都有两种机制:
+		1.类装载子系统：装载具有合适名称的类或接口
+		2.执行引擎：负责执行包含在已装载的类或接口中的指令
+	每个JVM都包含：
+		方法区、Java堆、Java栈、本地方法栈、指令计数器及其它隐含寄存器
+5.对JVM的学习，两个部分最重要
+	1.Java代码编译和执行的整个过程
+	2.JVM内存管理及垃圾回收机制
+6.Java代码编译和执行的整个过程包含了以下三个重要的机制：
+	1.Java源码编译机制
+		1.分析和输入到符号表
+		2.注解处理
+		3.语义分析和生成class文件
+			1.结构信息：包括class文件格式版本号及各部分的数量与大小的信息
+			2.元数据：对应于Java源码中声明与常量的信息。包含类/继承的超类/实现的接口的声明信息、域与方法声明信息和常量池
+			3.方法信息：对应于Java源码中语句和表达式对应的信息。包含字节码、异常处理器表、求值栈与局部变量区大小、求值栈的类型记录、调试符号信息
+	2.类加载机制
+		1.JVM的类加载时通过ClassLoader及其子类来完成的，类的层次关系和加载顺序可以由下面的顺序来描述：
+			1.Bootstrap ClassLoader
+				负责加载$Java_HOME中jre/lib/rt.jar里所有的class，由C++实现，不是ClassLoader子类
+			2.Extension ClassLoader
+				负责加载java平台中扩展功能的一些jar包，包括$JAVA_HOME中jre/lib/*.jar或者-Djava.ext.dirs指定目录下的jar包
+			3.App ClassLoader
+				负责加载classpath中指定的jar包及目录中class
+			4.Custom ClassLoader
+				属于应用程序根据自身需要自定义的ClassLoader,如tomcat、jboss都会根据J2ee规范自行实现ClassLoader
+		2.加载过程中会先检查类是否已被加载，检查顺序是自底向上，从Custom ClassLoader到Bootstrap逐层检查，只要某个classloader已加载就视为已加载此类，
+		  保证此类只所有ClassLoader加载一次。而加载的顺序是自上向下，也就是由上层来逐层尝试加载此类。
+	3.类执行机制

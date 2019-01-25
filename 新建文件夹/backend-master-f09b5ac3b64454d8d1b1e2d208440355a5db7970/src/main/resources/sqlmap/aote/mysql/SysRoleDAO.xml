@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.sdk4.biz.aote.dao.SysRoleDAO">
+
+    <sql id="allFields">
+        id,type,name,auth_list
+    </sql>
+    
+    <select id="get" resultType="SysRole">
+        select
+            <include refid="allFields" />
+        from sys_role
+        where id = #{id}
+    </select>
+    
+    <select id="query" resultType="SysRole">
+        select
+            <include refid="allFields" />
+        from sys_role
+        where 1 = 1 
+            <if test="type != null"> and type = #{type}</if>
+        order by name
+    </select>
+    
+    <insert id="insert" parameterType="SysRole">
+        insert into sys_role
+            (id,type,name,auth_list)
+        values
+            (#{id},#{type},#{name},#{auth_list})
+    </insert>
+    
+    <update id="update" parameterType="SysRole">
+        update sys_role 
+        set name = #{name}, auth_list = #{auth_list} 
+        where id = #{id}
+    </update>
+    
+    <delete id="delete">
+        delete from sys_role 
+        where id = #{id}
+    </delete>
+    
+</mapper>

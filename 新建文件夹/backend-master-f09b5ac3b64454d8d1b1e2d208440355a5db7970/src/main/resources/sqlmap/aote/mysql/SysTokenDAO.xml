@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.sdk4.biz.aote.dao.SysTokenDAO">
+
+    <sql id="allFields">
+        token,client_type,client_key,user_type,user_id,login_time
+    </sql>
+    
+    <select id="getByToken" resultType="LoginUser">
+        select
+            <include refid="allFields" />
+        from sys_token
+        where token = #{token}
+    </select>
+    
+    <insert id="insert" parameterType="SysUser">
+        insert into sys_token
+            (token,client_type,client_key,user_type,user_id,login_time)
+        values
+            (#{token},#{client_type},#{client_key},#{user_type},#{user_id},#{login_time})
+    </insert>
+    
+    <delete id="deleteByToken">
+        delete from sys_token 
+        where token = #{token}
+    </delete>
+    
+    <delete id="deleteByUserId">
+        delete from sys_token 
+        where user_id = #{user_id}
+    </delete>
+</mapper>

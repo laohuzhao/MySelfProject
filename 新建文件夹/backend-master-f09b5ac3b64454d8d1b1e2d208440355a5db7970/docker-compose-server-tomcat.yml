@@ -1,0 +1,32 @@
+version: '3'
+services:
+  db:
+    container_name: autol-mysql
+    image: mysql
+    volumes:
+      - /data/autol/db/data:/var/lib/mysql
+    restart: always
+    environment:
+      - MYSQL_ROOT_PASSWORD=NuwJYK4s4MGpbY
+      - MYSQL_DATABASE=autol
+      - MYSQL_USER=autol
+      - MYSQL_PASSWORD=AFrokRANYodgYqfdnCpHc4RA
+      - TZ=Asia/Shanghai
+    ports:
+      - 3317:3306
+
+  tomcat:
+    container_name: autol-tomcat
+    restart: always
+    image: tomcat
+    image: tomcat:8-jre8
+    volumes:
+      - ./target/autol:/usr/local/tomcat/webapps/ROOT
+      - /data/autol/tomcat/logs:/usr/local/tomcat/logs/
+      - /data/autol/data:/data
+      - ./tomcat/conf/server.xml:/usr/local/tomcat/conf/server.xml
+    depends_on:
+      - db
+    ports:
+      - 8024:8080
+
